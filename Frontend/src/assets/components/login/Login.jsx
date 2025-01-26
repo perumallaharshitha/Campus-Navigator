@@ -54,16 +54,6 @@ function Login() {
                 required
               />
             </div>
-            <div className="form-check">
-              <input
-                type="checkbox"
-                id="remember"
-                className="form-check-input"
-              />
-              <label htmlFor="remember" className="form-check-label">
-                Remember me
-              </label>
-            </div>
             <button type="submit" className="btn btn-primary btn-block">
               Log In
             </button>

@@ -19,11 +19,8 @@ function Register() {
     .catch((error) => {
       console.log(error);
     });
-  
-    
   };
 
-  
   return (
     <div className="registration-page">
       <div className="registration-container">
