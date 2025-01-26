@@ -63,7 +63,9 @@ function Login() {
           </p>
         </div>
         <div className="login-right">
-          <div className="graphic-container"></div>
+          <div className="graphic-container">
+            <h3>Hello welcome, back</h3>
+          </div>
         </div>
       </div>
     </div>
