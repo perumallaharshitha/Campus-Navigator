@@ -1,45 +1,77 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import "./Header.css";
 
 function Header() {
+  const [searchQuery, setSearchQuery] = useState("");
+
+  const handleScrollToDepartments = (e) => {
+    e.preventDefault();
+    const section = document.getElementById("departments-section");
+    if (section) {
+      section.scrollIntoView({ behavior: "auto" });
+      section.classList.add("highlight");
+
+      setTimeout(() => {
+        section.classList.remove("highlight");
+      }, 2000);
+    }
+  };
+
+  const handleSearchChange = (e) => {
+    setSearchQuery(e.target.value);
+  };
+
+  const handleSearchSubmit = (e) => {
+    e.preventDefault();
+    // You can handle the search here, like redirecting or filtering results
+    console.log("Searching for:", searchQuery);
+  };
+
   return (
-    <div className="p-4 bg-light d-flex align-items-center">
-      <img 
-      src=" "
-         alt="" 
-        className="img-fluid" 
-        style={{ width: '50px', height: 'auto' } }
-      />
-      <h4 className="ms-3 text-secondary">Campus Navigator</h4>
-      <ul className="nav fs-5 p-3 ms-auto">
-        <li className="nav-item">
-          <Link to="/" className="nav-link text-secondary">
-            Home
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link to="/register" className="nav-link text-secondary">
-            Register
-          </Link>
-        </li>
-       
-        <li className="nav-item">
-          <Link to="/login" className="nav-link text-secondary">
-            Login
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link to="/campus-map" className="nav-link text-secondary">
-            Campus Map
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link to="/about" className="nav-link text-secondary">
-            About Us
-          </Link>
-        </li>
-      </ul>
-    </div>
+    <header className="header-container">
+      <div className="left">
+        <h4 className="header-title">Campus Navigator</h4>
+      </div>
+
+      <nav className="center">
+        <ul className="navbar">
+          <li className="nav-item">
+            <Link to="/" className="fw-bold nav-link">Home</Link>
+          </li>
+          <li className="nav-item">
+            <a href="#departments-section" onClick={handleScrollToDepartments} className="fw-bold nav-link">
+              Departments
+            </a>
+          </li>
+          <li className="nav-item">
+            <Link to="/about" className="fw-bold nav-link">About Us</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/campus-map" className="fw-bold nav-link">Campus Map</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/login" className="fw-bold nav-link">Login</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/register" className="fw-bold nav-link">Register</Link>
+          </li>
+        </ul>
+      </nav>
+
+      <div className="right"> 
+        <form onSubmit={handleSearchSubmit} className="search-form">
+          <input
+            type="text"
+            value={searchQuery}
+            onChange={handleSearchChange}
+            placeholder="Search..."
+            className="search-input"
+          />
+          <button type="submit" className="search-btn">Search</button>
+        </form>
+      </div>
+    </header>
   );
 }
 
