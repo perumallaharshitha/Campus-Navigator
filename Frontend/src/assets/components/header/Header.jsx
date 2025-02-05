@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
@@ -31,7 +32,8 @@ function Header() {
   return (
     <header className="header-container">
       <div className="left">
-        <h4 className="header-title">Campus Navigator</h4>
+        <Link to="/test">Campus Navigator</Link>
+        {/* <h4 className="header-title">Campus Navigator</h4> */}
       </div>
 
       <nav className="center">

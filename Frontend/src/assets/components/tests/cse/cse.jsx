@@ -1,0 +1,354 @@
+import './CSE.css';
+
+function CSE() {
+    const facultyData = [
+        {
+            "name": "Dr. A. Jayalakshmi",
+            "designation": "Professor & Head",
+            "contact": "9490743501",
+            "email": "hodcse@pvpsiddhartha.ac.in",
+            "room": "CSE100001",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE100001.jpg"
+        },
+        {
+            "name": "Dr. M. V. Ramakrishna",
+            "designation": "Professor",
+            "contact": "9440672590",
+            "email": "mvrk@pvpsiddhartha.ac.in",
+            "room": "CSE010001",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010001.jpg"
+        },
+        {
+            "name": "Dr. S. Madhavi",
+            "designation": "Professor",
+            "contact": "9032962658, 9032962657",
+            "email": "mmadhavi@pvpsiddhartha.ac.in",
+            "room": "CSE010019",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010019.jpg"
+        },
+        {
+            "name": "Dr. P. Sai Kiran",
+            "designation": "Professor",
+            "contact": "9490856188",
+            "email": "psaikiran@pvpsiddhartha.ac.in",
+            "room": "CSE010099",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010099.jpg"
+        },
+        {
+            "name": "Dr. K Koteswara Rao",
+            "designation": "Associate Professor",
+            "contact": "7893533960",
+            "email": "kkrao@pvpsiddhartha.ac.in",
+            "room": "CSE010084",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010084.jpg"
+        },
+        {
+            "name": "Dr. Ravuri Daniel",
+            "designation": "Associate Professor",
+            "contact": "9133438924",
+            "email": "danielravuri@pvpsiddhartha.ac.in",
+            "room": "CSE010102",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010102.jpg"
+        },
+        {
+            "name": "Dr. B. Narasimha Swamy",
+            "designation": "Associate Professor",
+            "contact": "9849166396",
+            "email": "swamy_bn@pvpsiddhartha.ac.in",
+            "room": "CSE010017",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010017.jpg"
+        },
+        {
+            "name": "Dr. S. Phani Praveen",
+            "designation": "Associate Professor",
+            "contact": "9059639699",
+            "email": "sppraveen@pvpsiddhartha.ac.in",
+            "room": "CSE010071",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010071.jpg"
+        },
+        {
+            "name": "Dr. A. Ramana Lakshmi",
+            "designation": "Associate Professor",
+            "contact": "9391119092",
+            "email": "arlakshmi@pvpsiddhartha.ac.in",
+            "room": "CSE010004",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010004.jpg"
+        },
+        {
+            "name": "Dr. J. Rama Devi",
+            "designation": "Sr. Assistant Professor",
+            "contact": "9848643253",
+            "email": "ramadevi@pvpsiddhartha.ac.in",
+            "room": "CSE010025",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010025.jpg"
+        },
+        {
+            "name": "Dr. G Lalitha Kumari",
+            "designation": "Sr. Assistant Professor",
+            "contact": "7396874553",
+            "email": "glalitha@pvpsiddhartha.ac.in",
+            "room": "CSE010015",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010015.jpg"
+        },
+        {
+            "name": "Dr. D. Swapna",
+            "designation": "Assistant Professor",
+            "contact": "9885539010",
+            "email": "dswapna@pvpsiddhartha.ac.in",
+            "room": "CSE010048",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010048.jpg"
+        },
+        {
+            "name": "Dr. M. Sailaja",
+            "designation": "Assistant Professor",
+            "contact": "Not Provided",
+            "email": "msailaja@pvpsiddhartha.ac.in",
+            "room": "CSE010050",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010050.jpg"
+        },
+        {
+            "name": "Ms. Y. Surekha",
+            "designation": "Assistant Professor",
+            "contact": "9493106040",
+            "email": "ysurekha@pvpsiddhartha.ac.in",
+            "room": "CSE010061",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010061.jpg"
+        },
+        {
+            "name": "Ms. D. Sree Lakshmi",
+            "designation": "Assistant Professor",
+            "contact": "9948723569",
+            "email": "dslakshmi@pvpsiddhartha.ac.in",
+            "room": "CSE010062",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010062.jpg"
+        },
+        {
+            "name": "Ms. T. Sri Lakshmi",
+            "designation": "Assistant Professor",
+            "contact": "9866177492",
+            "email": "tslakshmi@pvpsiddhartha.ac.in",
+            "room": "CSE010063",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010063.jpg"
+        },
+        {
+            "name": "Ms. A. Madhuri",
+            "designation": "Assistant Professor",
+            "contact": "9908244959",
+            "email": "madhuria@pvpsiddhartha.ac.in",
+            "room": "CSE010068",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010068.jpg"
+        },
+        {
+            "name": "Mr. P Anil Kumar",
+            "designation": "Assistant Professor",
+            "contact": "9985084300",
+            "email": "anilp@pvpsiddhartha.ac.in",
+            "room": "CSE010073",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010073.jpg"
+        },
+        {
+            "name": "Mr. B. Vishnu Vardhan",
+            "designation": "Assistant Professor",
+            "contact": "9652324268",
+            "email": "bvishnu@pvpsiddhartha.ac.in",
+            "room": "CSE010070",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010070.jpg"
+        },
+        {
+            "name": "Mr. D. Lokesh Sai Kumar",
+            "designation": "Assistant Professor",
+            "contact": "9700557799",
+            "email": "lokeshsaikumar@pvpsiddhartha.ac.in",
+            "room": "CSE010072",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010072.jpg"
+        },
+        {
+            "name": "Ms. A. DIVYA",
+            "designation": "Assistant Professor",
+            "contact": "9966100876",
+            "email": "adivya@pvpsiddhartha.ac.in",
+            "room": "CSE010075",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010075.jpg"
+        },
+        {
+            "name": "Mr. Yuva Krishna. Aluri",
+            "designation": "Assistant Professor",
+            "contact": "9533232259",
+            "email": "ayk@pvpsiddhartha.ac.in",
+            "room": "CSE010074",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010074.jpg"
+        },
+        {
+            "name": "Mr. Ramgopal Musunuri",
+            "designation": "Assistant Professor & Asst. COE",
+            "contact": "9849291011",
+            "email": "ramgopal.musunuri@pvpsiddhartha.ac.in",
+            "room": "CSE010080",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010080.jpg"
+        },
+        {
+            "name": "Mr. S. Krishna Kishore",
+            "designation": "Assistant Professor",
+            "contact": "9247130366",
+            "email": "skkishore@pvpsiddhartha.ac.in",
+            "room": "CSE010085",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010085.jpg"
+        },
+        {
+            "name": "Mr. B. Vinay Kumar",
+            "designation": "Assistant Professor",
+            "contact": "9133734348",
+            "email": "bvinaykumar@pvpsiddhartha.ac.in",
+            "room": "CSE010088",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010088.jpg"
+        },
+        {
+            "name": "Ms. Manasa Yarrarapu",
+            "designation": "Assistant Professor",
+            "contact": "7013752626",
+            "email": "manasayarrarapu@pvpsiddhartha.ac.in",
+            "room": "CSE010093",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010093.jpg"
+        },
+        {
+            "name": "Mr. Prashant Atmakuri",
+            "designation": "Assistant Professor",
+            "contact": "9908833371",
+            "email": "prashant.atmakuri@pvpsiddhartha.ac.in",
+            "room": "CSE010096",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010096.jpg"
+        }        
+    ];
+    
+    const nonTeachingStaffData = [
+        {
+            "name": "Ms. P. Madhavi",
+            "designation": "Assistant Professor",
+            "contact": "9160060740",
+            "email": "Not Provided",
+            "room": "CSE011005",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE011005.jpg"
+        },
+        {
+            "name": "Ms. J. Sarvani",
+            "designation": "Assistant Professor",
+            "contact": "9059611353",
+            "email": "Not Provided",
+            "room": "CSE011024",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE011024.jpg"
+        },
+        {
+            "name": "Mr. N. Chaitanya Krishna",
+            "designation": "Assistant Professor",
+            "contact": "9000998749",
+            "email": "Not Provided",
+            "room": "CSE011018",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE011018.jpg"
+        },
+        {
+            "name": "Ms. M. Krishnaveni",
+            "designation": "Assistant Professor",
+            "contact": "9912484888",
+            "email": "Not Provided",
+            "room": "CSE011021",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE011021.jpg"
+        },
+        {
+            "name": "Ms. P. Anusha",
+            "designation": "Assistant Professor",
+            "contact": "9581588177",
+            "email": "Not Provided",
+            "room": "CSE011022",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE011022.jpg"
+        },
+        {
+            "name": "Ms. M. Ganga Sri",
+            "designation": "Assistant Professor",
+            "contact": "7382087115",
+            "email": "Not Provided",
+            "room": "CSE011023",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE011023.jpg"
+        },
+        {
+            "name": "Ms. U. Durga Nandini",
+            "designation": "Assistant Professor",
+            "contact": "8008199321",
+            "email": "Not Provided",
+            "room": "CSE011025",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE011025.jpg"
+        },
+        {
+            "name": "Mr. J. Subramanyam",
+            "designation": "Assistant Professor",
+            "contact": "9502340054",
+            "email": "Not Provided",
+            "room": "CSE011026",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE011026.jpg"
+        },
+        {
+            "name": "Mr. P. Srinivasa Rao",
+            "designation": "Assistant Professor",
+            "contact": "9966709143",
+            "email": "Not Provided",
+            "room": "CSE011020",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE011020.jpg"
+        },
+        {
+            "name": "Mrs. B. Bhagya Lakshmi",
+            "designation": "Assistant Professor",
+            "contact": "9490339847",
+            "email": "Not Provided",
+            "room": "CSE001001",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE001001.jpg"
+        },
+        {
+            "name": "Mr. V.V. Suresh",
+            "designation": "Assistant Professor",
+            "contact": "9885224617",
+            "email": "Not Provided",
+            "room": "CSE101006",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE101006.jpg"
+        },
+        {
+            "name": "Mr. D.I. Satish",
+            "designation": "Assistant Professor",
+            "contact": "9908819336",
+            "email": "Not Provided",
+            "room": "CSE101002",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE101002.jpg"
+        }
+        
+    ];
+    return (
+        <div className="staff-container">
+            <h2 className="staff-heading">Teaching Staff</h2>
+            <div className="faculty-container">
+                {facultyData.map((faculty, index) => (
+                    <div key={index} className="faculty-card">
+                        <img src={faculty.photo} alt={faculty.name} className="faculty-photo" />
+                        <h3 className="faculty-name">{faculty.name}</h3>
+                        <p className="faculty-designation">{faculty.designation}</p>
+                        <p className="faculty-room">Room: {faculty.room}</p>
+                        <p className="faculty-room">Contact: {faculty.contact}</p>
+                        <p className="faculty-email">{faculty.email}</p>
+                    </div>
+                ))}
+            </div>
+
+            <h2 className="staff-heading">Non-Teaching Staff</h2>
+            <div className="non-teaching-container">
+                {nonTeachingStaffData.map((staff, index) => (
+                    <div key={index} className="staff-card">
+                        <img src={staff.photo} alt={staff.name} className="staff-photo" />
+                        <h3 className="staff-name">{staff.name}</h3>
+                        <p className="staff-designation">{staff.designation}</p>
+                        <p className="staff-empid">EMP ID: {staff.empId}</p>
+                        <p className="staff-contact">Contact: {staff.contact}</p>
+                    </div>
+                ))}
+            </div>
+        </div>
+    );
+}
+
+export default CSE;
