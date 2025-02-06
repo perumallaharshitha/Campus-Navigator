@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import './FED.css';
 
 function FED() {
@@ -62,7 +63,7 @@ function FED() {
             "name": "Mr. G. Kiran Kumar",
             "designation": "Assistant Professor & Asst. COE",
             "contact": "9912205656",
-            "email": "ganne.kirankumar@gmail.com, gkiran_hari@yahoo.co.in",
+            "email": "ganne.kirankumar@gmail.com",
             "room": "SAH010016",
             "photo": "https://www.pvpsiddhartha.ac.in/images/SAHSTAFF/SAH010016.jpg"
         },
@@ -203,7 +204,7 @@ function FED() {
             "photo": "https://www.pvpsiddhartha.ac.in/images/SAHSTAFF/SAH010060.jpg"
         }
     ];
-    
+
     const nonTeachingStaffData = [
         {
             "name": "Mrs. A. Parma Geetha",
@@ -239,30 +240,48 @@ function FED() {
         }
     ];
 
+    const [searchQuery, setSearchQuery] = useState('');
+
+    const filteredFaculty = facultyData.filter(faculty =>
+        faculty.name.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+
+    const filteredNonTeachingStaff = nonTeachingStaffData.filter(staff =>
+        staff.name.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+
     return (
         <div className="staff-container">
-            <h2 className="staff-heading">Teaching Staff</h2>
+            <input
+                type="text"
+                placeholder="Search by name..."
+                className="search-input"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+            />
+
+            <h2 className="staff-heading teaching-heading">Teaching Staff</h2>
             <div className="faculty-container">
-                {facultyData.map((faculty, index) => (
+                {filteredFaculty.map((faculty, index) => (
                     <div key={index} className="faculty-card">
                         <img src={faculty.photo} alt={faculty.name} className="faculty-photo" />
                         <h3 className="faculty-name">{faculty.name}</h3>
                         <p className="faculty-designation">{faculty.designation}</p>
                         <p className="faculty-room">Room: {faculty.room}</p>
-                        <p className="faculty-room">Contact: {faculty.contact}</p>
+                        <p className="faculty-contact">Contact: {faculty.contact}</p>
                         <p className="faculty-email">{faculty.email}</p>
                     </div>
                 ))}
             </div>
 
-            <h2 className="staff-heading">Non-Teaching Staff</h2>
+            <h2 className="staff-heading non-teaching-heading">Non-Teaching Staff</h2>
             <div className="non-teaching-container">
-                {nonTeachingStaffData.map((staff, index) => (
+                {filteredNonTeachingStaff.map((staff, index) => (
                     <div key={index} className="staff-card">
                         <img src={staff.photo} alt={staff.name} className="staff-photo" />
                         <h3 className="staff-name">{staff.name}</h3>
-                        <p className="staff-designation">{staff.designation}</p>
-                        <p className="staff-empid">EMP ID: {staff.empId}</p>
+                        {/* <p className="staff-designation">{staff.designation}</p> */}
+                        <p className="staff-room">Room: {staff.room}</p>
                         <p className="staff-contact">Contact: {staff.contact}</p>
                     </div>
                 ))}
@@ -272,3 +291,4 @@ function FED() {
 }
 
 export default FED;
+

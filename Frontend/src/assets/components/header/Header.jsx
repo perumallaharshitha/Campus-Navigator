@@ -32,8 +32,8 @@ function Header() {
   return (
     <header className="header-container">
       <div className="left">
-        <Link to="/test">Campus Navigator</Link>
-        {/* <h4 className="header-title">Campus Navigator</h4> */}
+        {/* <Link to="/test">Campus Navigator</Link> */}
+        <h4 className="header-title">Campus Navigator</h4>
       </div>
 
       <nav className="center">

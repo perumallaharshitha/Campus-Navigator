@@ -1,4 +1,5 @@
 import './CIVIL.css';
+import { useState } from 'react';
 
 function CIVIL() {
     // Teaching Staff
@@ -71,7 +72,7 @@ function CIVIL() {
             "name": "Dr. Ashish Kumar Nayak",
             "designation": "Assistant Professor",
             "contact": "7063068418",
-            "email": "Not Provided",
+            "email": "ashishkumarnayak@pvpsiddhartha.ac.in",
             "room": "CVL010040",
             "photo": "https://www.pvpsiddhartha.ac.in/images/cvlstaff/CVL010040.jpg"
         },
@@ -146,36 +147,54 @@ function CIVIL() {
         }
     ];
 
-    return (
-        <div className="staff-container">
-            <h2 className="staff-heading">Teaching Staff</h2>
-            <div className="faculty-container">
-                {facultyData.map((faculty, index) => (
-                    <div key={index} className="faculty-card">
-                        <img src={faculty.photo} alt={faculty.name} className="faculty-photo" />
-                        <h3 className="faculty-name">{faculty.name}</h3>
-                        <p className="faculty-designation">{faculty.designation}</p>
-                        <p className="faculty-room">Room: {faculty.room}</p>
-                        <p className="faculty-room">Contact: {faculty.contact}</p>
-                        <p className="faculty-email">{faculty.email}</p>
-                    </div>
-                ))}
+    const [searchQuery, setSearchQuery] = useState('');
+    
+        const filteredFaculty = facultyData.filter(faculty =>
+            faculty.name.toLowerCase().includes(searchQuery.toLowerCase())
+        );
+    
+        const filteredNonTeachingStaff = nonTeachingStaffData.filter(staff =>
+            staff.name.toLowerCase().includes(searchQuery.toLowerCase())
+        );
+    
+        return (
+            <div className="staff-container">
+                <input
+                    type="text"
+                    placeholder="Search by name..."
+                    className="search-input"
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                />
+    
+                <h2 className="staff-heading teaching-heading">Teaching Staff</h2>
+                <div className="faculty-container">
+                    {filteredFaculty.map((faculty, index) => (
+                        <div key={index} className="faculty-card">
+                            <img src={faculty.photo} alt={faculty.name} className="faculty-photo" />
+                            <h3 className="faculty-name">{faculty.name}</h3>
+                            <p className="faculty-designation">{faculty.designation}</p>
+                            <p className="faculty-room">Room: {faculty.room}</p>
+                            <p className="faculty-contact">Contact: {faculty.contact}</p>
+                            <p className="faculty-email">{faculty.email}</p>
+                        </div>
+                    ))}
+                </div>
+    
+                <h2 className="staff-heading non-teaching-heading">Non-Teaching Staff</h2>
+                <div className="non-teaching-container">
+                    {filteredNonTeachingStaff.map((staff, index) => (
+                        <div key={index} className="staff-card">
+                            <img src={staff.photo} alt={staff.name} className="staff-photo" />
+                            <h3 className="staff-name">{staff.name}</h3>
+                            {/* <p className="staff-designation">{staff.designation}</p> */}
+                            <p className="staff-room">Room: {staff.room}</p>
+                            <p className="staff-contact">Contact: {staff.contact}</p>
+                        </div>
+                    ))}
+                </div>
             </div>
-
-            <h2 className="staff-heading">Non-Teaching Staff</h2>
-            <div className="non-teaching-container">
-                {nonTeachingStaffData.map((staff, index) => (
-                    <div key={index} className="staff-card">
-                        <img src={staff.photo} alt={staff.name} className="staff-photo" />
-                        <h3 className="staff-name">{staff.name}</h3>
-                        <p className="staff-designation">{staff.designation}</p>
-                        <p className="staff-empid">EMP ID: {staff.empId}</p>
-                        <p className="staff-contact">Contact: {staff.contact}</p>
-                    </div>
-                ))}
-            </div>
-        </div>
-    );
+        );
 }
 
 export default CIVIL;
