@@ -1,10 +1,21 @@
-const mongoose = require('mongoose');
+const jwt = require("jsonwebtoken");
+require('dotenv').config();
 
-const userSchema = new mongoose.Schema({
-  username: { type: String, required: true, unique: true },
-  password: { type: String, required: true }
-});
+const tokenVerify = (req, res, next) => {
+  // Get bearer token from headers
+  const bearerToken = req.headers.authorization;
+  if (!bearerToken) {
+    return res.send({ message: "Unauthorized access" });
+  }
+  // Extract token from bearer token
+  const token = bearerToken.split(" ")[1];
+  // Verify the token
+  try {
+    jwt.verify(token, process.env.SECRET_KEY);
+    next();
+  } catch (err) {
+    res.send({ message: "Token expired. Please relogin to continue." });
+  }
+};
 
-const CampyModel = mongoose.model('User', userSchema);
-
-module.exports = CampyModel;
+module.exports = tokenVerify;

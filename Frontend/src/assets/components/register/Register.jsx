@@ -1,24 +1,26 @@
 import React, { useState } from "react";
 import "./Register.css";
 import axios from "axios";
-import {useNavigate} from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Register() {
   const [role, setRole] = useState();
   const [username, setUsername] = useState();
   const [password, setPassword] = useState();
+  const [error, setError] = useState("");  // Add error state
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    axios.post('http://localhost:5000/register', {role, username, password})
-    .then((response) => {
+
+    try {
+      const response = await axios.post('http://localhost:4000/user-api/user', { role, username, password });
       console.log(response);
       navigate('/login');
-    })
-    .catch((error) => {
+    } catch (error) {
       console.log(error);
-    });
+      setError(error.response?.data?.message || "Something went wrong");  // Update error state with the message from backend
+    }
   };
 
   return (
@@ -30,14 +32,14 @@ function Register() {
         <div className="registration-right">
           <div className="registration-form">
             <h2>Create an Account</h2>
+            {error && <div className="error-message">{error}</div>}  {/* Display error message */}
             <form onSubmit={handleSubmit}>
               <div className="form-group">
                 <label htmlFor="role">Role</label>
                 <select
                   id="role"
                   className="form-control"
-                  //value={role}
-                  onChange={(e)=>setRole(e.target.value)}  // Add onChange handler
+                  onChange={(e) => setRole(e.target.value)}
                 >
                   <option value="student">Student</option>
                   <option value="faculty">Faculty</option>
@@ -51,8 +53,7 @@ function Register() {
                   id="username"
                   className="form-control"
                   placeholder="Choose a username"
-                  //value={username}
-                  onChange={(e)=>setUsername(e.target.value)}  // Add onChange handler
+                  onChange={(e) => setUsername(e.target.value)}
                   required
                 />
               </div>
@@ -63,8 +64,7 @@ function Register() {
                   id="password"
                   className="form-control"
                   placeholder="Create a password"
-                  //value={password}
-                  onChange={(e)=>setPassword(e.target.value)}  // Add onChange handler
+                  onChange={(e) => setPassword(e.target.value)}
                   required
                 />
               </div>
