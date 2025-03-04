@@ -8,7 +8,7 @@ function MEC() {
             designation: "Professor & Principal",
             contact: "9490217899",
             email: "principal@pvpsiddhartha.ac.in",
-            room: "MEC010029",
+            room: "102",
             photo: "https://www.pvpsiddhartha.ac.in/images/MECSTAFF/MEC010029.jpg"
         },
         {
@@ -16,7 +16,7 @@ function MEC() {
             designation: "Professor & Head",
             contact: "919866925051",
             email: "braghu5051@gmail.com",
-            room: "MEC100001",
+            room: "105,125",
             photo: "https://www.pvpsiddhartha.ac.in/images/MECSTAFF/MEC100001.jpg"
         },
         {
@@ -24,7 +24,7 @@ function MEC() {
             designation: "Professor & COE",
             contact: "9440491356",
             email: "coe@pvpsiddhartha.ac.in",
-            room: "MEC010047",
+            room: "233",
             photo: "https://www.pvpsiddhartha.ac.in/images/MECSTAFF/MEC010047.jpg"
         },
         {
@@ -32,7 +32,7 @@ function MEC() {
             designation: "Professor",
             contact: "9032963948",
             email: "phaniprasanthi.parvathaneni@gmail.com",
-            room: "MEC010031",
+            room: "333, 348",
             photo: "https://www.pvpsiddhartha.ac.in/images/MECSTAFF/MEC010031.jpg"
         },
         {
@@ -40,7 +40,7 @@ function MEC() {
             designation: "Associate Professor",
             contact: "9704998826",
             email: "srividya.kode@gmail.com",
-            room: "MEC010020",
+            room: "124, 232",
             photo: "https://www.pvpsiddhartha.ac.in/images/MECSTAFF/MEC010020.jpg"
         },
         {
@@ -48,7 +48,7 @@ function MEC() {
             designation: "Associate Professor",
             contact: "9440262702",
             email: "rpkocharla@gmail.com",
-            room: "MEC010072",
+            room: "334, 338",
             photo: "https://www.pvpsiddhartha.ac.in/images/MECSTAFF/MEC010072.jpg"
         },
         {
@@ -56,7 +56,7 @@ function MEC() {
             designation: "Associate Professor & Asst. COE",
             contact: "9550819282",
             email: "koteswararao_u@yahoo.co.in",
-            room: "MEC010034",
+            room: "117, 332",
             photo: "https://www.pvpsiddhartha.ac.in/images/MECSTAFF/MEC010034.jpg"
         },
         {
@@ -64,7 +64,7 @@ function MEC() {
             designation: "Assistant Professor",
             contact: "9848309619",
             email: "kavithavarikola@pvpsiddhartha.ac.in",
-            room: "MEC010021",
+            room: "121",
             photo: "https://www.pvpsiddhartha.ac.in/images/MECSTAFF/MEC010021.jpg"
         },
         {
@@ -72,7 +72,7 @@ function MEC() {
             designation: "Assistant Professor",
             contact: "9441520233",
             email: "sdakpvpsit@gmal.com",
-            room: "MEC010027",
+            room: "117,118",
             photo: "https://www.pvpsiddhartha.ac.in/images/MECSTAFF/MEC010027.jpg"
         },
         {
@@ -88,7 +88,7 @@ function MEC() {
             designation: "Assistant Professor",
             contact: "9492173371",
             email: "anusha.peyyala@pvpsiddhartha.ac.in",
-            room: "MEC010039",
+            room: "108,109,228",
             photo: "https://www.pvpsiddhartha.ac.in/images/MECSTAFF/MEC010039.jpg"
         },
         {
@@ -96,7 +96,7 @@ function MEC() {
             designation: "Assistant Professor",
             contact: "9440028567",
             email: "vandana.k@pvpsiddhartha.ac.in",
-            room: "MEC010044",
+            room: "328",
             photo: "https://www.pvpsiddhartha.ac.in/images/MECSTAFF/MEC010044.jpg"
         },
         {
@@ -104,7 +104,7 @@ function MEC() {
             designation: "Assistant Professor",
             contact: "9440387264",
             email: "mrajyalakshmi@pvpsiddhartha.ac.in",
-            room: "MEC010045",
+            room: "328",
             photo: "https://www.pvpsiddhartha.ac.in/images/MECSTAFF/MEC010045.jpg"
         },
         {
@@ -112,7 +112,7 @@ function MEC() {
             designation: "Assistant Professor",
             contact: "9052323234",
             email: "swapna2k5@gmail.com",
-            room: "MEC010050",
+            room: "228",
             photo: "https://www.pvpsiddhartha.ac.in/images/MECSTAFF/MEC010050.jpg"
         },
         {
@@ -120,7 +120,7 @@ function MEC() {
             designation: "Assistant Professor",
             contact: "9951769585",
             email: "venkatrao.me54@gmail.com",
-            room: "MEC010048",
+            room: "231",
             photo: "https://www.pvpsiddhartha.ac.in/images/MECSTAFF/MEC010048.jpg"
         },
         {
@@ -136,7 +136,7 @@ function MEC() {
             designation: "Assistant Professor",
             contact: "9652241067",
             email: "lakshmikanth.mechanical@gmail.com",
-            room: "MEC010049",
+            room: "231",
             photo: "https://www.pvpsiddhartha.ac.in/images/MECSTAFF/MEC010049.jpg"
         },
         {
@@ -144,7 +144,7 @@ function MEC() {
             designation: "Assistant Professor",
             contact: "9885074139",
             email: "mastan_pb@yahoo.com",
-            room: "MEC010056",
+            room: "116",
             photo: "https://www.pvpsiddhartha.ac.in/images/MECSTAFF/MEC010056.jpg"
         },
         {
@@ -152,7 +152,7 @@ function MEC() {
             designation: "Assistant Professor",
             contact: "9030105759",
             email: "sumanthchpvpsit@gmail.com",
-            room: "MEC010060",
+            room: "348, 439",
             photo: "https://www.pvpsiddhartha.ac.in/images/MECSTAFF/MEC010060.jpg"
         },
         {
@@ -160,7 +160,7 @@ function MEC() {
             designation: "Assistant Professor",
             contact: "7799243888",
             email: "srinag.tummala@gmail.com",
-            room: "MEC010062",
+            room: "116, 121, 122, 124",
             photo: "https://www.pvpsiddhartha.ac.in/images/MECSTAFF/MEC010062.jpg"
         },
         {
@@ -168,7 +168,7 @@ function MEC() {
             designation: "Assistant Professor",
             contact: "8297355333",
             email: "gopalakrishnaiah@pvpsiddhartha.ac.in",
-            room: "MEC010064",
+            room: "118",
             photo: "https://www.pvpsiddhartha.ac.in/images/MECSTAFF/MEC010064.jpg"
         },
         {
@@ -192,7 +192,7 @@ function MEC() {
             designation: "Assistant Professor",
             contact: "9059839931",
             email: "devi.radham@gmail.com",
-            room: "MEC010065",
+            room: "328",
             photo: "https://www.pvpsiddhartha.ac.in/images/MECSTAFF/MEC010065.jpg"
         },
         {
@@ -200,7 +200,7 @@ function MEC() {
             designation: "Assistant Professor",
             contact: "8885561986",
             email: "tjpk.mech@gmail.com",
-            room: "MEC010073",
+            room: "114",
             photo: "https://www.pvpsiddhartha.ac.in/images/MECSTAFF/MEC010073.jpg"
         },
         {
@@ -208,7 +208,7 @@ function MEC() {
             designation: "Assistant Professor",
             contact: "9493488665",
             email: "jasti.surendra@pvpsiddhartha.ac.in",
-            room: "MEC010075",
+            room: "122, 439",
             photo: "https://www.pvpsiddhartha.ac.in/images/MECSTAFF/MEC010075.jpg"
         },
         {
@@ -227,7 +227,7 @@ function MEC() {
                 "designation": "Non-Teaching Staff",
                 "contact": "8019695057",
                 "email": "Not Provided",
-                "room": "MEC011008",
+                "room": "348",
                 "photo": "https://www.pvpsiddhartha.ac.in/images/MECSTAFF/MEC011008.jpg"
             },
             {
@@ -235,7 +235,7 @@ function MEC() {
                 "designation": "Non-Teaching Staff",
                 "contact": "9676280008",
                 "email": "Not Provided",
-                "room": "MEC001001",
+                "room": "126",
                 "photo": "https://www.pvpsiddhartha.ac.in/images/MECSTAFF/MEC001001.jpg"
             },
             {
@@ -243,7 +243,7 @@ function MEC() {
                 "designation": "Non-Teaching Staff",
                 "contact": "9949243263",
                 "email": "Not Provided",
-                "room": "MEC011001",
+                "room": "117",
                 "photo": "https://www.pvpsiddhartha.ac.in/images/MECSTAFF/MEC011001.jpg"
             },
             {
@@ -251,7 +251,7 @@ function MEC() {
                 "designation": "Non-Teaching Staff",
                 "contact": "8019692544",
                 "email": "Not Provided",
-                "room": "MEC011003",
+                "room": "121",
                 "photo": "https://www.pvpsiddhartha.ac.in/images/MECSTAFF/MEC011003.jpg"
             },
             {
@@ -259,7 +259,7 @@ function MEC() {
                 "designation": "Non-Teaching Staff",
                 "contact": "9848649866",
                 "email": "Not Provided",
-                "room": "MEC011005",
+                "room": "124",
                 "photo": "https://www.pvpsiddhartha.ac.in/images/MECSTAFF/MEC011005.jpg"
             },
             {
@@ -267,7 +267,7 @@ function MEC() {
                 "designation": "Non-Teaching Staff",
                 "contact": "9347060606",
                 "email": "Not Provided",
-                "room": "MEC011007",
+                "room": "109",
                 "photo": "https://www.pvpsiddhartha.ac.in/images/MECSTAFF/MEC011007.jpg"
             },
             {
@@ -275,7 +275,7 @@ function MEC() {
                 "designation": "Non-Teaching Staff",
                 "contact": "9848730152",
                 "email": "Not Provided",
-                "room": "MEC101005",
+                "room": "121",
                 "photo": "https://www.pvpsiddhartha.ac.in/images/MECSTAFF/MEC101005.jpg"
             },
             {
@@ -283,7 +283,7 @@ function MEC() {
                 "designation": "Non-Teaching Staff",
                 "contact": "9966114182",
                 "email": "Not Provided",
-                "room": "MEC101003",
+                "room": "109, 231, 328",
                 "photo": "https://www.pvpsiddhartha.ac.in/images/MECSTAFF/MEC101003.jpg"
             },
             {

@@ -9,7 +9,7 @@ function ECE() {
             contact: "8074776513",
             email: "csr949@pvpsiddhartha.ac.in",
             photo: "https://www.pvpsiddhartha.ac.in/ecenew/ece/FacultyPhotos/ECE010005.jpg",
-            room: "ECE010005"
+            room: "264, 265, 369"
         },
         {
             name: "Dr. J. Ravindra Babu",
@@ -17,7 +17,7 @@ function ECE() {
             contact: "9346324140",
             email: "jrb0009@gmail.com",
             photo: "https://www.pvpsiddhartha.ac.in/ecenew/ece/FacultyPhotos/ECE010002.jpg",
-            room: "ECE010002"
+            room: "254"
         },
         {
             name: "Dr. Ch. Gangadhar",
@@ -25,7 +25,7 @@ function ECE() {
             contact: "9440577560",
             email: "Ganga-ch@yahoo.com",
             photo: "https://www.pvpsiddhartha.ac.in/ecenew/ece/FacultyPhotos/ECE010006.jpg",
-            room: "ECE010006"
+            room: "363, 364"
         },
         {
             name: "Dr. T. Haritha",
@@ -33,7 +33,7 @@ function ECE() {
             contact: "9440319214",
             email: "harithat@pvpsiddhartha.ac.in",
             photo: "https://www.pvpsiddhartha.ac.in/ecenew/ece/FacultyPhotos/ECE010009.jpg",
-            room: "ECE010009"
+            room: "267"
         },
         {
             name: "Mr. M. Srinivasa Rao",
@@ -41,7 +41,7 @@ function ECE() {
             contact: "9985035499",
             email: "msrao@pvpsiddhartha.ac.in",
             photo: "https://www.pvpsiddhartha.ac.in/ecenew/ece/FacultyPhotos/ECE010062.jpg",
-            room: "ECE010062"
+            room: "261"
         },
         {
             name: "Mrs. K. Anitha",
@@ -49,7 +49,7 @@ function ECE() {
             contact: "9490647666",
             email: "anithakomma@pvpsiddhartha.ac.in",
             photo: "https://www.pvpsiddhartha.ac.in/ecenew/ece/FacultyPhotos/ECE010063.jpg",
-            room: "ECE010063"
+            room: "370"
         },
         {
             name: "Dr. A Geetha Devi",
@@ -57,7 +57,7 @@ function ECE() {
             contact: "9885385828",
             email: "geetha.agd@gmail.com",
             photo: "https://www.pvpsiddhartha.ac.in/ecenew/ece/FacultyPhotos/ECE010064.jpg",
-            room: "ECE010064"
+            room: "367"
         },
         {
             name: "Dr. B. Surya Prasada Rao",
@@ -65,7 +65,7 @@ function ECE() {
             contact: "9492242100",
             email: "suryaborra1679@pvpsiddhartha.ac.in",
             photo: "https://www.pvpsiddhartha.ac.in/ecenew/ece/FacultyPhotos/ECE010065.jpg",
-            room: "ECE010065"
+            room: "363"
         },
         {
             name: "Dr. Habibulla Mohammad",
@@ -73,7 +73,7 @@ function ECE() {
             contact: "9246123786",
             email: "habibulla@pvpsiddhartha.ac.in",
             photo: "https://www.pvpsiddhartha.ac.in/ecenew/ece/FacultyPhotos/ECE010030.jpg",
-            room: "ECE010030"
+            room: "344"
         },
         {
             name: "Ms. K. Aruna Kumari",
@@ -81,7 +81,7 @@ function ECE() {
             contact: "9494454523",
             email: "kukatiarunakumari95@gmail.com",
             photo: "https://www.pvpsiddhartha.ac.in/ecenew/ece/FacultyPhotos/ECE010003.jpg",
-            room: "ECE010003"
+            room: "335"
         },
         {
             name: "Dr. B. Samuyelu",
@@ -89,7 +89,7 @@ function ECE() {
             contact: "9052851972",
             email: "sambommu@gmail.com",
             photo: "https://www.pvpsiddhartha.ac.in/ecenew/ece/FacultyPhotos/ECE010061.jpg",
-            room: "ECE010061"
+            room: "358"
         },
         {
             name: "Dr. T. Balaji",
@@ -97,7 +97,7 @@ function ECE() {
             contact: "9603110468",
             email: "balu170882@gmail.com",
             photo: "https://www.pvpsiddhartha.ac.in/ecenew/ece/FacultyPhotos/ECE010060.jpg",
-            room: "ECE010060"
+            room: "253"
         },
         {
             name: "Ms. T. Sushma",
@@ -105,7 +105,7 @@ function ECE() {
             contact: "",
             email: "tsushma@pvpsiddhartha.ac.in",
             photo: "https://www.pvpsiddhartha.ac.in/ecenew/ece/FacultyPhotos/ECE010016.jpg",
-            room: "ECE010016"
+            room: "360"
         },
         {
             name: "Dr. V. Ratna Kumari",
@@ -113,7 +113,7 @@ function ECE() {
             contact: "9866546827",
             email: "vemuriratna2005@gmail.com",
             photo: "https://www.pvpsiddhartha.ac.in/ecenew/ece/FacultyPhotos/ECE010020.jpg",
-            room: "ECE010020"
+            room: "256"
         },
         {
             name: "Ms. D. Hareesha",
@@ -121,7 +121,7 @@ function ECE() {
             contact: "9701978899",
             email: "hareeshashyam@gmail.com",
             photo: "https://www.pvpsiddhartha.ac.in/ecenew/ece/FacultyPhotos/ECE010019.jpg",
-            room: "ECE010019"
+            room: "340, 357"
         },
         {
             name: "Ms. B. V. Subbayamma",
@@ -129,7 +129,7 @@ function ECE() {
             contact: "7893581466",
             email: "kolla.samyuktha@gmail.com",
             photo: "https://www.pvpsiddhartha.ac.in/ecenew/ece/FacultyPhotos/ECE010022.jpg",
-            room: "ECE010022"
+            room: "256"
         },
         {
             name: "Ms. B. Swathi Lakshmi",
@@ -137,7 +137,7 @@ function ECE() {
             contact: "9959735829",
             email: "bswathi@pvpsiddhartha.ac.in",
             photo: "https://www.pvpsiddhartha.ac.in/ecenew/ece/FacultyPhotos/ECE010028.jpg",
-            room: "ECE010028"
+            room: "362"
         },
         {
             name: "Mr. K. Phani Rama Krishna",
@@ -145,7 +145,7 @@ function ECE() {
             contact: "9848385962",
             email: "kprkrishna007@gmail.com",
             photo: "https://www.pvpsiddhartha.ac.in/ecenew/ece/FacultyPhotos/ECE010031.jpg",
-            room: "ECE010031"
+            room: "254"
         },
         {
             name: "Mr. A. Ashok Babu",
@@ -153,7 +153,7 @@ function ECE() {
             contact: "9394206029",
             email: "ashok.4ever@yahoo.co.in",
             photo: "https://www.pvpsiddhartha.ac.in/ecenew/ece/FacultyPhotos/ECE010040.jpg",
-            room: "ECE010040"
+            room: "358"
         },
         {
             name: "Dr. P. Venu Madhav",
@@ -161,7 +161,7 @@ function ECE() {
             contact: "9052906648",
             email: "venumadhav@pvpsiddhartha.ac.in",
             photo: "https://www.pvpsiddhartha.ac.in/ecenew/ece/FacultyPhotos/ECE010052.jpg",
-            room: "ECE010052"
+            room: "355, 358"
         },
         {
             name: "Ms. L. Madhavi Devi",
@@ -169,7 +169,7 @@ function ECE() {
             contact: "9912454374",
             email: "madhavidevi.kodali@gmail.com",
             photo: "https://www.pvpsiddhartha.ac.in/ecenew/ece/FacultyPhotos/ECE010055.jpg",
-            room: "ECE010055"
+            room: "255, 335"
         },
         {
             name: "Dr. V. S.D. Rekha",
@@ -177,7 +177,7 @@ function ECE() {
             contact: "6301313447",
             email: "vsdrekha@pvpsiddhartha.ac.in",
             photo: "https://www.pvpsiddhartha.ac.in/ecenew/ece/FacultyPhotos/ECE010056.jpg",
-            room: "ECE010056"
+            room: "362"
         },
         {
             name: "Ms. D. Praveena Bai",
@@ -185,7 +185,7 @@ function ECE() {
             contact: "7674822275",
             email: "praveena-ece2@yahoo.com",
             photo: "https://www.pvpsiddhartha.ac.in/ecenew/ece/FacultyPhotos/ECE010059.jpg",
-            room: "ECE010059"
+            room: "343"
         },
         {
             name: "Mrs. D. Swathi",
@@ -193,7 +193,7 @@ function ECE() {
             contact: "9640934593",
             email: "dswathi289@gmail.com",
             photo: "https://www.pvpsiddhartha.ac.in/ecenew/ece/FacultyPhotos/ECE010066.jpg",
-            room: "ECE010066"
+            room: "340"
         },
         {
             name: "Mrs. Sri Lakshmi Chandana",
@@ -201,7 +201,7 @@ function ECE() {
             contact: "9392303477",
             email: "chsrilakshmi@pvpsiddhartha.ac.in",
             photo: "https://www.pvpsiddhartha.ac.in/ecenew/ece/FacultyPhotos/ECE010069.jpg",
-            room: "ECE010069"
+            room: "343"
         },
         {
             name: "Dr. T. Maha Lakshmi",
@@ -209,8 +209,9 @@ function ECE() {
             contact: "9441266701",
             email: "dasari.maha@yahoo.com",
             photo: "https://www.pvpsiddhartha.ac.in/ecenew/ece/FacultyPhotos/ECE010070.jpg",
-            room: "ECE010070"
+            room: "256"
         }
+        //balamce phani kumar 367
     ];
     const nonTeachingStaffData = [
         {
@@ -225,42 +226,42 @@ function ECE() {
             name: "Ms. T. Krupa Lakshmi",
             designation: "Lab Technician",
             contact: "9492273269",
-            empId: "ECE011008",
+            empId: "355",
             photo: "https://www.pvpsiddhartha.ac.in/ecenew/ece/FacultyPhotos/ECM101002.jpg"
         },
         {
             name: "Ms. K. Vijaya Lakshmi",
             designation: "Lab Technician",
             contact: "9491731745",
-            empId: "ECE011005",
+            empId: "261",
             photo: "https://www.pvpsiddhartha.ac.in/ecenew/ece/FacultyPhotos/ECE011005.jpg"
         },
         {
             name: "Ms. D. Latha Hima Bindu",
             designation: "Lab Technician",
             contact: "7207565646",
-            empId: "ECE011002",
+            empId: "253",
             photo: "https://www.pvpsiddhartha.ac.in/ecenew/ece/FacultyPhotos/ECE011002.jpg"
         },
         {
             name: "Mr. P. Koteswara Rao",
             designation: "Lab Technician",
             contact: "9951719333",
-            empId: "ECE011006",
+            empId: "364",
             photo: "https://www.pvpsiddhartha.ac.in/ecenew/ece/FacultyPhotos/ECE011006.jpg"
         },
         {
             name: "Mr. V. Bharath Kumar",
             designation: "Lab Technician",
             contact: "9493477003",
-            empId: "ECE011004",
+            empId: "255",
             photo: "https://www.pvpsiddhartha.ac.in/ecenew/ece/FacultyPhotos/ECE011004.jpg"
         },
         {
             name: "Mr. M.PHANI KUMAR",
             designation: "Lab Technician",
             contact: "9848387512",
-            empId: "ECE011009",
+            empId: "367",
             photo: "https://www.pvpsiddhartha.ac.in/ecenew/ece/FacultyPhotos/ECE011009.jpg"
         },
         {
@@ -281,9 +282,10 @@ function ECE() {
             name: "Mr. A. Raju",
             designation: "Support Staff",
             contact: "8008448113",
-            empId: "ECE101001",
+            empId: "368",
             photo: "https://www.pvpsiddhartha.ac.in/ecenew/ece/FacultyPhotos/ECE101001.jpg"
         },
+        //balance achamamba
     ];
     const [searchQuery, setSearchQuery] = useState('');
     

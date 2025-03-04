@@ -8,7 +8,7 @@ function IT() {
           "designation": "Professor & Head",
           "contact": "9440109139",
           "email": "hodit@pvpsiddhartha.ac.in",
-          "room": "INF100001",
+          "room": "313",
           "photo": "https://www.pvpsiddhartha.ac.in/images/INFSTAFF/INF100001.jpg"
         },
         {
@@ -16,7 +16,7 @@ function IT() {
           "designation": "Associate Professor",
           "contact": "9951476233",
           "email": "aharitha@pvpsiddhartha.ac.in",
-          "room": "INF010030",
+          "room": "311",
           "photo": "https://www.pvpsiddhartha.ac.in/images/INFSTAFF/INF010030.jpg"
         },
         {
@@ -24,7 +24,7 @@ function IT() {
           "designation": "Associate Professor",
           "contact": "9441309716",
           "email": "kavitha_donepudi@yahoo.com",
-          "room": "INF010008",
+          "room": "305",
           "photo": "https://www.pvpsiddhartha.ac.in/images/INFSTAFF/INF010008.jpg"
         },
         {
@@ -32,7 +32,7 @@ function IT() {
           "designation": "Associate Professor",
           "contact": "Not Provided",
           "email": "sureshyadlapati@gmail.com",
-          "room": "INF010027",
+          "room": "316, 322",
           "photo": "https://www.pvpsiddhartha.ac.in/images/INFSTAFF/INF010027.jpg"
         },
         {
@@ -40,7 +40,7 @@ function IT() {
           "designation": "Sr. Assistant Professor",
           "contact": "9848691924",
           "email": "pavanpvpsit@gmail.com",
-          "room": "INF010029",
+          "room": "316, 319",
           "photo": "https://www.pvpsiddhartha.ac.in/images/INFSTAFF/INF010029.jpg"
         },
         {
@@ -48,7 +48,7 @@ function IT() {
           "designation": "Sr. Assistant Professor",
           "contact": "9885156632",
           "email": "saikumar.senagavarapu@gmail.com",
-          "room": "INF010041",
+          "room": "326",
           "photo": "https://www.pvpsiddhartha.ac.in/images/INFSTAFF/INF010041.jpg"
         },
         {
@@ -56,7 +56,7 @@ function IT() {
           "designation": "Assistant Professor",
           "contact": "9849675275",
           "email": "siri.jagannadham@gmail.com",
-          "room": "INF010004",
+          "room": "306",
           "photo": "https://www.pvpsiddhartha.ac.in/images/INFSTAFF/INF010004.jpg"
         },
         {
@@ -64,7 +64,7 @@ function IT() {
           "designation": "Assistant Professor",
           "contact": "7997045678",
           "email": "reshma.gorripati@gmail.com",
-          "room": "INF010019",
+          "room": "307",
           "photo": "https://www.pvpsiddhartha.ac.in/images/INFSTAFF/INF010019.jpg"
         },
         {
@@ -72,7 +72,7 @@ function IT() {
           "designation": "Assistant Professor",
           "contact": "9494767015",
           "email": "lakshmineeraja@gmail.com",
-          "room": "INF010038",
+          "room": "311",
           "photo": "https://www.pvpsiddhartha.ac.in/images/INFSTAFF/INF010038.jpg"
         },
         {
@@ -80,7 +80,7 @@ function IT() {
           "designation": "Assistant Professor",
           "contact": "9160804779",
           "email": "swarupapvpsit@gmail.com",
-          "room": "INF010044",
+          "room": "304",
           "photo": "https://www.pvpsiddhartha.ac.in/images/INFSTAFF/INF010044.jpg"
         },
         {
@@ -88,7 +88,7 @@ function IT() {
           "designation": "Assistant Professor",
           "contact": "9030845608",
           "email": "raviprakashparuchuri@gmail.com",
-          "room": "INF010048",
+          "room": "326",
           "photo": "https://www.pvpsiddhartha.ac.in/images/INFSTAFF/INF010048.jpg"
         },
         {
@@ -96,7 +96,7 @@ function IT() {
           "designation": "Assistant Professor",
           "contact": "9885138378",
           "email": "padmayenuga@gmail.com",
-          "room": "INF010049",
+          "room": "306",
           "photo": "https://www.pvpsiddhartha.ac.in/images/INFSTAFF/INF010049.jpg"
         },
         {
@@ -104,7 +104,7 @@ function IT() {
           "designation": "Assistant Professor",
           "contact": "9160886088",
           "email": "srivijayak@gmail.com",
-          "room": "INF010050",
+          "room": "320",
           "photo": "https://www.pvpsiddhartha.ac.in/images/INFSTAFF/INF010050.jpg"
         },
         {
@@ -112,7 +112,7 @@ function IT() {
           "designation": "Assistant Professor",
           "contact": "9492878422",
           "email": "dharanidonepudi@gmail.com",
-          "room": "INF010053",
+          "room": "304",
           "photo": "https://www.pvpsiddhartha.ac.in/images/INFSTAFF/INF010053.jpg"
         },
         {
@@ -120,7 +120,7 @@ function IT() {
           "designation": "Assistant Professor",
           "contact": "9390824814",
           "email": "imvkrishna@pvpsiddhartha.ac.in",
-          "room": "INF010057",
+          "room": "315",
           "photo": "https://www.pvpsiddhartha.ac.in/images/INFSTAFF/INF010057.jpg"
         },
         {
@@ -128,7 +128,7 @@ function IT() {
           "designation": "Assistant Professor",
           "contact": "9963754234",
           "email": "chmohan@pvpsiddhartha.ac.in",
-          "room": "INF010058",
+          "room": "308",
           "photo": "https://www.pvpsiddhartha.ac.in/images/INFSTAFF/INF010058.jpg"
         },
         {
@@ -144,7 +144,7 @@ function IT() {
           "designation": "Assistant Professor",
           "contact": "9490854890",
           "email": "rashmi@pvpsiddhartha.ac.in",
-          "room": "INF010060",
+          "room": "305",
           "photo": "https://www.pvpsiddhartha.ac.in/images/INFSTAFF/INF010060.jpg"
         },
         {
@@ -152,7 +152,7 @@ function IT() {
           "designation": "Assistant Professor",
           "contact": "9550806131",
           "email": "vsparvathi@pvpsiddhartha.ac.in",
-          "room": "INF010062",
+          "room": "320",
           "photo": "https://www.pvpsiddhartha.ac.in/images/INFSTAFF/INF010062.jpg"
         },
         {
@@ -160,7 +160,7 @@ function IT() {
           "designation": "Assistant Professor",
           "contact": "8121742764",
           "email": "vsatish.phd@gmail.com",
-          "room": "INF010064",
+          "room": "331",
           "photo": "https://www.pvpsiddhartha.ac.in/images/INFSTAFF/INF010064.jpg"
         },
         {
@@ -168,7 +168,7 @@ function IT() {
           "designation": "Assistant Professor",
           "contact": "7794807438",
           "email": "doradlabharadwaja@gmail.com",
-          "room": "INF010065",
+          "room": "308",
           "photo": "https://www.pvpsiddhartha.ac.in/images/INFSTAFF/INF010065.jpg"
         },
         {
@@ -176,7 +176,7 @@ function IT() {
           "designation": "Assistant Professor",
           "contact": "8074435769",
           "email": "rajyalakshmip@pvpsiddhartha.ac.in",
-          "room": "INF010067",
+          "room": "304",
           "photo": "https://www.pvpsiddhartha.ac.in/images/INFSTAFF/INF010067.jpg"
         }
       ];
@@ -188,7 +188,7 @@ function IT() {
             "designation": "Assistant Professor",
             "contact": "9866909672",
             "email": "Not Provided",
-            "room": "INF011007",
+            "room": "308",
             "photo": "https://www.pvpsiddhartha.ac.in/images/INFSTAFF/INF011007.jpg"
           },
           {
@@ -196,7 +196,7 @@ function IT() {
             "designation": "Assistant Professor",
             "contact": "Not Provided",
             "email": "Not Provided",
-            "room": "INF011008",
+            "room": "311",
             "photo": "https://www.pvpsiddhartha.ac.in/images/INFSTAFF/INF011008.jpg"
           },
           {
@@ -204,7 +204,7 @@ function IT() {
             "designation": "Assistant Professor",
             "contact": "Not Provided",
             "email": "Not Provided",
-            "room": "INF011009",
+            "room": "316",
             "photo": "https://www.pvpsiddhartha.ac.in/images/INFSTAFF/INF011009.jpg"
           },
           {
@@ -220,7 +220,7 @@ function IT() {
             "designation": "Assistant Professor",
             "contact": "9492872300",
             "email": "Not Provided",
-            "room": "INF101002",
+            "room": "316",
             "photo": "https://www.pvpsiddhartha.ac.in/images/INFSTAFF/INF101002.jpg"
           },
           {
@@ -228,7 +228,7 @@ function IT() {
             "designation": "Assistant Professor",
             "contact": "Not Provided",
             "email": "Not Provided",
-            "room": "INF101001",
+            "room": "312",
             "photo": "https://www.pvpsiddhartha.ac.in/images/INFSTAFF/INF101001.jpg"
           }
     ];

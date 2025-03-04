@@ -9,7 +9,7 @@ function CIVIL() {
             "designation": "Professor & Head",
             "contact": "9845373393",
             "email": "jdvengala@yahoo.com",
-            "room": "CVL010030",
+            "room": "158",
             "photo": "https://www.pvpsiddhartha.ac.in/images/cvlstaff/CVL010030.jpg"
         },
         {
@@ -17,7 +17,7 @@ function CIVIL() {
             "designation": "Professor",
             "contact": "9848864331",
             "email": "adilakshmi26@gmail.com",
-            "room": "CVL010025",
+            "room": "119, 145",
             "photo": "https://www.pvpsiddhartha.ac.in/images/cvlstaff/CVL010025.jpg"
         },
         {
@@ -25,7 +25,7 @@ function CIVIL() {
             "designation": "Assistant Professor",
             "contact": "9493405879",
             "email": "koneruvenkatasubash@gmail.com",
-            "room": "CVL010008",
+            "room": "144",
             "photo": "https://www.pvpsiddhartha.ac.in/images/cvlstaff/CVL010008.jpg"
         },
         {
@@ -33,7 +33,7 @@ function CIVIL() {
             "designation": "Assistant Professor",
             "contact": "8096610933",
             "email": "shyamprakashcivil@gmail.com",
-            "room": "CVL010019",
+            "room": "153",
             "photo": "https://www.pvpsiddhartha.ac.in/images/cvlstaff/CVL010019.jpg"
         },
         {
@@ -41,7 +41,7 @@ function CIVIL() {
             "designation": "Assistant Professor",
             "contact": "8121130232",
             "email": "divyakilaru24@gmail.com",
-            "room": "CVL010026",
+            "room": "145, 156",
             "photo": "https://www.pvpsiddhartha.ac.in/images/cvlstaff/CVL010026.jpg"
         },
         {
@@ -49,7 +49,7 @@ function CIVIL() {
             "designation": "Assistant Professor",
             "contact": "9985508219",
             "email": "katneniprasanthi.pvp@gmail.com",
-            "room": "CVL010031",
+            "room": "119, 150",
             "photo": "https://www.pvpsiddhartha.ac.in/images/cvlstaff/CVL010031.jpg"
         },
         {
@@ -57,7 +57,7 @@ function CIVIL() {
             "designation": "Assistant Professor",
             "contact": "9182807459",
             "email": "durga.prasanna31@gmail.com",
-            "room": "CVL010032",
+            "room": "119",
             "photo": "https://www.pvpsiddhartha.ac.in/images/cvlstaff/CVL010032.jpg"
         },
         {
@@ -65,7 +65,7 @@ function CIVIL() {
             "designation": "Assistant Professor",
             "contact": "8500757586",
             "email": "anupama.manne@pvpsiddhartha.ac.in",
-            "room": "CVL010038",
+            "room": "144, 437",
             "photo": "https://www.pvpsiddhartha.ac.in/images/cvlstaff/CVL010038.jpg"
         },
         {
@@ -73,7 +73,7 @@ function CIVIL() {
             "designation": "Assistant Professor",
             "contact": "7063068418",
             "email": "ashishkumarnayak@pvpsiddhartha.ac.in",
-            "room": "CVL010040",
+            "room": "346",
             "photo": "https://www.pvpsiddhartha.ac.in/images/cvlstaff/CVL010040.jpg"
         },
         {
@@ -81,7 +81,7 @@ function CIVIL() {
             "designation": "Assistant Professor",
             "contact": "9440028748",
             "email": "msudhakar@pvpsiddhartha.ac.in",
-            "room": "CVL010041",
+            "room": "146",
             "photo": "https://www.pvpsiddhartha.ac.in/images/cvlstaff/CVL010041.jpg"
         },
         {
@@ -89,7 +89,7 @@ function CIVIL() {
             "designation": "Assistant Professor",
             "contact": "8008455255",
             "email": "rajesh9127@pvpsiddhartha.ac.in",
-            "room": "CVL010042",
+            "room": "249",
             "photo": "https://www.pvpsiddhartha.ac.in/images/cvlstaff/CVL010042.jpg"
         },
         {
@@ -118,7 +118,7 @@ function CIVIL() {
             "designation": "Not Provided",
             "contact": "9492489467",
             "email": "Not Provided",
-            "room": "Not Provided",
+            "room": "119, 249",
             "photo": "https://www.pvpsiddhartha.ac.in/images/cvlstaff/CVL011001.jpg"
         },
         {
@@ -126,7 +126,7 @@ function CIVIL() {
             "designation": "Not Provided",
             "contact": "Not Provided",
             "email": "Not Provided",
-            "room": "Not Provided",
+            "room": "153, 156 ",
             "photo": "https://www.pvpsiddhartha.ac.in/images/cvlstaff/CVL011002.jpg"
         },
         {
@@ -134,7 +134,7 @@ function CIVIL() {
             "designation": "Not Provided",
             "contact": "9365557999",
             "email": "Not Provided",
-            "room": "Not Provided",
+            "room": "346",
             "photo": "https://www.pvpsiddhartha.ac.in/images/cvlstaff/CVL011004.jpg"
         },
         {
@@ -142,7 +142,7 @@ function CIVIL() {
             "designation": "Not Provided",
             "contact": "9492483445",
             "email": "Not Provided",
-            "room": "Not Provided",
+            "room": "146, 150",
             "photo": "https://www.pvpsiddhartha.ac.in/images/cvlstaff/CVL011003.jpg"
         }
     ];

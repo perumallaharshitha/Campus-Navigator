@@ -1,6 +1,5 @@
 import React from "react";
-import "./footer.css";
-
+import "./Footer.css";
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const Footer = () => {
@@ -10,13 +9,14 @@ const Footer = () => {
         <div className="footer-section logo-section">
           <h2 className="logo">Campus Navigator</h2>
           <p className="description">
-            Campus Navigatorhelps students, faculty, and visitors easily find their way and access resources across the campus  </p>
+            Campus Navigator helps students, faculty, and visitors easily find their way and access resources across the campus.
+          </p>
         </div>
 
         <div className="footer-section contact-section">
           <h3>CONTACT US</h3>
           <p>hello@campusnavigator.co</p>
-          <p>24 ,NY 11201</p>
+          <p>24, NY 11201</p>
           <p>+91 123 456 7890</p>
         </div>
 

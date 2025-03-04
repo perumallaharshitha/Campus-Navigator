@@ -8,7 +8,7 @@ function MBA() {
             "designation": "Professor",
             "contact": "9491348818",
             "email": "hodmba@pvpsiddhartha.ac.in",
-            "room": "MBA010001",
+            "room": "459, 464",
             "photo": "https://www.pvpsiddhartha.ac.in/images/mbastaff/MBA010001.jpg"
         },
         {
@@ -16,7 +16,7 @@ function MBA() {
             "designation": "Associate Professor",
             "contact": "9885344115",
             "email": "srinu_dokku@yahoo.co.in",
-            "room": "MBA010006",
+            "room": "451",
             "photo": "https://www.pvpsiddhartha.ac.in/images/mbastaff/MBA010006.jpg"
         },
         {
@@ -24,7 +24,7 @@ function MBA() {
             "designation": "Assistant Professor",
             "contact": "8500401246",
             "email": "praveen.vasi@gmail.com",
-            "room": "MBA010009",
+            "room": "447",
             "photo": "https://www.pvpsiddhartha.ac.in/images/mbastaff/MBA010009.jpg"
         },
         {
@@ -32,7 +32,7 @@ function MBA() {
             "designation": "Assistant Professor",
             "contact": "9848280815",
             "email": "mdnaikmba@gmail.com",
-            "room": "MBA010013",
+            "room": "160, 447",
             "photo": "https://www.pvpsiddhartha.ac.in/images/mbastaff/MBA010013.jpg"
         },
         {
@@ -40,7 +40,7 @@ function MBA() {
             "designation": "Assistant Professor",
             "contact": "9885385676",
             "email": "drsivasurendra@pvpsiddhartha.ac.in",
-            "room": "MBA010020",
+            "room": "465",
             "photo": "https://www.pvpsiddhartha.ac.in/images/mbastaff/MBA010020.jpg"
         },
         {
@@ -48,7 +48,7 @@ function MBA() {
             "designation": "Assistant Professor",
             "contact": "9703586747",
             "email": "nsb.mgc@gmail.com",
-            "room": "MBA010021",
+            "room": "465",
             "photo": "https://www.pvpsiddhartha.ac.in/images/mbastaff/MBA010021.jpg"
         },
         {
@@ -56,7 +56,7 @@ function MBA() {
             "designation": "Assistant Professor",
             "contact": "9533360607",
             "email": "subhansk06@pvpsiddhartha.ac.in",
-            "room": "MBA010022",
+            "room": "465",
             "photo": "https://www.pvpsiddhartha.ac.in/images/mbastaff/MBA010022.jpg"
         },
         {
@@ -75,7 +75,7 @@ function MBA() {
             "designation": "Not Provided",
             "contact": "9032986999",
             "email": "Not Provided",
-            "room": "MBA001001",
+            "room": "463",
             "photo": "https://www.pvpsiddhartha.ac.in/images/mbastaff/MBA001001.jpg"
         }
     ];

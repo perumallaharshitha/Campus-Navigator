@@ -9,7 +9,7 @@ function CSE() {
             "designation": "Professor & Head",
             "contact": "9490743501",
             "email": "hodcse@pvpsiddhartha.ac.in",
-            "room": "CSE100001",
+            "room": "213",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE100001.jpg"
         },
         {
@@ -17,7 +17,7 @@ function CSE() {
             "designation": "Professor",
             "contact": "9440672590",
             "email": "mvrk@pvpsiddhartha.ac.in",
-            "room": "CSE010001",
+            "room": "220",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010001.jpg"
         },
         {
@@ -25,7 +25,7 @@ function CSE() {
             "designation": "Professor",
             "contact": "9032962658, 9032962657",
             "email": "mmadhavi@pvpsiddhartha.ac.in",
-            "room": "CSE010019",
+            "room": "207",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010019.jpg"
         },
         {
@@ -33,7 +33,7 @@ function CSE() {
             "designation": "Professor",
             "contact": "9490856188",
             "email": "psaikiran@pvpsiddhartha.ac.in",
-            "room": "CSE010099",
+            "room": "219",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010099.jpg"
         },
         {
@@ -41,7 +41,7 @@ function CSE() {
             "designation": "Associate Professor",
             "contact": "7893533960",
             "email": "kkrao@pvpsiddhartha.ac.in",
-            "room": "CSE010084",
+            "room": "205",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010084.jpg"
         },
         {
@@ -49,7 +49,7 @@ function CSE() {
             "designation": "Associate Professor",
             "contact": "9133438924",
             "email": "danielravuri@pvpsiddhartha.ac.in",
-            "room": "CSE010102",
+            "room": "208",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010102.jpg"
         },
         {
@@ -57,7 +57,7 @@ function CSE() {
             "designation": "Associate Professor",
             "contact": "9849166396",
             "email": "swamy_bn@pvpsiddhartha.ac.in",
-            "room": "CSE010017",
+            "room": "218",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010017.jpg"
         },
         {
@@ -65,7 +65,7 @@ function CSE() {
             "designation": "Associate Professor",
             "contact": "9059639699",
             "email": "sppraveen@pvpsiddhartha.ac.in",
-            "room": "CSE010071",
+            "room": "211",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010071.jpg"
         },
         {
@@ -73,7 +73,7 @@ function CSE() {
             "designation": "Associate Professor",
             "contact": "9391119092",
             "email": "arlakshmi@pvpsiddhartha.ac.in",
-            "room": "CSE010004",
+            "room": "206",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010004.jpg"
         },
         {
@@ -81,7 +81,7 @@ function CSE() {
             "designation": "Sr. Assistant Professor",
             "contact": "9848643253",
             "email": "ramadevi@pvpsiddhartha.ac.in",
-            "room": "CSE010025",
+            "room": "216, 222",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010025.jpg"
         },
         {
@@ -89,7 +89,7 @@ function CSE() {
             "designation": "Sr. Assistant Professor",
             "contact": "7396874553",
             "email": "glalitha@pvpsiddhartha.ac.in",
-            "room": "CSE010015",
+            "room": "221",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010015.jpg"
         },
         {
@@ -97,7 +97,7 @@ function CSE() {
             "designation": "Assistant Professor",
             "contact": "9885539010",
             "email": "dswapna@pvpsiddhartha.ac.in",
-            "room": "CSE010048",
+            "room": "222",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010048.jpg"
         },
         {
@@ -105,7 +105,7 @@ function CSE() {
             "designation": "Assistant Professor",
             "contact": "Not Provided",
             "email": "msailaja@pvpsiddhartha.ac.in",
-            "room": "CSE010050",
+            "room": "221",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010050.jpg"
         },
         {
@@ -113,7 +113,7 @@ function CSE() {
             "designation": "Assistant Professor",
             "contact": "9493106040",
             "email": "ysurekha@pvpsiddhartha.ac.in",
-            "room": "CSE010061",
+            "room": "221",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010061.jpg"
         },
         {
@@ -121,7 +121,7 @@ function CSE() {
             "designation": "Assistant Professor",
             "contact": "9948723569",
             "email": "dslakshmi@pvpsiddhartha.ac.in",
-            "room": "CSE010062",
+            "room": "221",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010062.jpg"
         },
         {
@@ -129,7 +129,7 @@ function CSE() {
             "designation": "Assistant Professor",
             "contact": "9866177492",
             "email": "tslakshmi@pvpsiddhartha.ac.in",
-            "room": "CSE010063",
+            "room": "221",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010063.jpg"
         },
         {
@@ -137,7 +137,7 @@ function CSE() {
             "designation": "Assistant Professor",
             "contact": "9908244959",
             "email": "madhuria@pvpsiddhartha.ac.in",
-            "room": "CSE010068",
+            "room": "221",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010068.jpg"
         },
         {
@@ -145,7 +145,7 @@ function CSE() {
             "designation": "Assistant Professor",
             "contact": "9985084300",
             "email": "anilp@pvpsiddhartha.ac.in",
-            "room": "CSE010073",
+            "room": "226",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010073.jpg"
         },
         {
@@ -153,7 +153,7 @@ function CSE() {
             "designation": "Assistant Professor",
             "contact": "9652324268",
             "email": "bvishnu@pvpsiddhartha.ac.in",
-            "room": "CSE010070",
+            "room": "226",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010070.jpg"
         },
         {
@@ -161,7 +161,7 @@ function CSE() {
             "designation": "Assistant Professor",
             "contact": "9700557799",
             "email": "lokeshsaikumar@pvpsiddhartha.ac.in",
-            "room": "CSE010072",
+            "room": "211",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010072.jpg"
         },
         {
@@ -169,7 +169,7 @@ function CSE() {
             "designation": "Assistant Professor",
             "contact": "9966100876",
             "email": "adivya@pvpsiddhartha.ac.in",
-            "room": "CSE010075",
+            "room": "222",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010075.jpg"
         },
         {
@@ -177,7 +177,7 @@ function CSE() {
             "designation": "Assistant Professor",
             "contact": "9533232259",
             "email": "ayk@pvpsiddhartha.ac.in",
-            "room": "CSE010074",
+            "room": "204",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010074.jpg"
         },
         {
@@ -185,7 +185,7 @@ function CSE() {
             "designation": "Assistant Professor & Asst. COE",
             "contact": "9849291011",
             "email": "ramgopal.musunuri@pvpsiddhartha.ac.in",
-            "room": "CSE010080",
+            "room": "234",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010080.jpg"
         },
         {
@@ -193,7 +193,7 @@ function CSE() {
             "designation": "Assistant Professor",
             "contact": "9247130366",
             "email": "skkishore@pvpsiddhartha.ac.in",
-            "room": "CSE010085",
+            "room": "218",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010085.jpg"
         },
         {
@@ -201,7 +201,7 @@ function CSE() {
             "designation": "Assistant Professor",
             "contact": "9133734348",
             "email": "bvinaykumar@pvpsiddhartha.ac.in",
-            "room": "CSE010088",
+            "room": "204",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010088.jpg"
         },
         {
@@ -209,7 +209,7 @@ function CSE() {
             "designation": "Assistant Professor",
             "contact": "7013752626",
             "email": "manasayarrarapu@pvpsiddhartha.ac.in",
-            "room": "CSE010093",
+            "room": "221",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010093.jpg"
         },
         {
@@ -217,9 +217,98 @@ function CSE() {
             "designation": "Assistant Professor",
             "contact": "9908833371",
             "email": "prashant.atmakuri@pvpsiddhartha.ac.in",
-            "room": "CSE010096",
+            "room": "223",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010096.jpg"
-        }        
+        },
+        
+        {
+            "name": "Ms. Pulletikurthy Dedeepya",
+            "designation": "Assistant Professor",
+            "contact": "9347594106",
+            "room": "223",
+            "email": "dedeepya@pvpsiddhartha.ac.in",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010097.jpg"
+        },
+        {
+            "name": "Mr. L. Venkata Krishna Rao",
+            "designation": "Assistant Professor",
+            "contact": "9701695772",
+            "room": "223",
+            "email": "krishna.likki@pvpsiddhartha.ac.in",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010098.jpg"
+        },
+        {
+            "name": "Mr. Michael Sadgun Rao Kona",
+            "designation": "Assistant Professor",
+            "contact": "8466011006",
+            "room": "457",
+            "email": "michael.kona@pvpsiddhartha.ac.in",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010103.jpg"
+        },
+        {
+            "name": "Mr. Bala Bhaskara Rao Emani",
+            "designation": "Assistant Professor",
+            "contact": "9542424931",
+            "room": "234",
+            "email": "balabhaskar605@pvpsiddhartha.ac.in",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010104.jpg"
+        },
+        {
+            "name": "Dr. Kilari Jyothsna Devi",
+            "designation": "Assistant Professor",
+            "contact": "9985409854",
+            "room": "222",
+            "email": "kilari.jyothsna@pvpsiddhartha.ac.in",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010105.jpg"
+        },
+        {
+            "name": "Sudhakar Reddy Narala",
+            "designation": "Assistant Professor",
+            "contact": "9866385245",
+            "room": "234",
+            "email": "nsudhakar@pvpsiddhartha.ac.in",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010106.jpg"
+        },
+        {
+            "name": "Dr. Uddagiri Sirisha",
+            "designation": "Assistant Professor",
+            "contact": "8885353872",
+            "room": "224",
+            "email": "sirisha.u@pvpsiddhartha.ac.in",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010108.jpg"
+        },
+        {
+            "name": "Ms. D. Jyothi",
+            "designation": "Assistant Professor",
+            "contact": "9550829306",
+            "room": "216",
+            "email": "djyothi@pvpsiddhartha.ac.in",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010109.jpg"
+        },
+        {
+            "name": "Ms. M. Bhavya Lakshmi",
+            "designation": "Assistant Professor",
+            "contact": "9959754455",
+            "room": "216",
+            "email": "bhavyamedasani@pvpsiddhartha.ac.in",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010110.jpg"
+        },
+        {
+            "name": "Ms. A. Naga Pravallika",
+            "designation": "Assistant Professor",
+            "contact": "8340959327",
+            "room": "222",
+            "email": "appikatlapavallika@pvpsiddhartha.ac.in",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010111.jpg"
+        },
+        {
+            "name": "Ms. K. Naga Divya",
+            "designation": "Assistant Professor",
+            "contact": "8885561230",
+            "room": "216",
+            "email": "adivyaindia@pvpsiddhartha.ac.in",
+            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE010112.jpg"
+        },
     ];
     
     const nonTeachingStaffData = [
@@ -228,7 +317,7 @@ function CSE() {
             "designation": "Assistant Professor",
             "contact": "9160060740",
             "email": "Not Provided",
-            "room": "CSE011005",
+            "room": "218",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE011005.jpg"
         },
         {
@@ -236,7 +325,7 @@ function CSE() {
             "designation": "Assistant Professor",
             "contact": "9059611353",
             "email": "Not Provided",
-            "room": "CSE011024",
+            "room": "216",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE011024.jpg"
         },
         {
@@ -244,7 +333,7 @@ function CSE() {
             "designation": "Assistant Professor",
             "contact": "9000998749",
             "email": "Not Provided",
-            "room": "CSE011018",
+            "room": "211",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE011018.jpg"
         },
         {
@@ -252,7 +341,7 @@ function CSE() {
             "designation": "Assistant Professor",
             "contact": "9912484888",
             "email": "Not Provided",
-            "room": "CSE011021",
+            "room": "224",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE011021.jpg"
         },
         {
@@ -260,23 +349,15 @@ function CSE() {
             "designation": "Assistant Professor",
             "contact": "9581588177",
             "email": "Not Provided",
-            "room": "CSE011022",
+            "room": "208",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE011022.jpg"
-        },
-        {
-            "name": "Ms. M. Ganga Sri",
-            "designation": "Assistant Professor",
-            "contact": "7382087115",
-            "email": "Not Provided",
-            "room": "CSE011023",
-            "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE011023.jpg"
         },
         {
             "name": "Ms. U. Durga Nandini",
             "designation": "Assistant Professor",
             "contact": "8008199321",
             "email": "Not Provided",
-            "room": "CSE011025",
+            "room": "216",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE011025.jpg"
         },
         {
@@ -284,7 +365,7 @@ function CSE() {
             "designation": "Assistant Professor",
             "contact": "9502340054",
             "email": "Not Provided",
-            "room": "CSE011026",
+            "room": "204",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE011026.jpg"
         },
         {
@@ -292,7 +373,7 @@ function CSE() {
             "designation": "Assistant Professor",
             "contact": "9966709143",
             "email": "Not Provided",
-            "room": "CSE011020",
+            "room": "208",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE011020.jpg"
         },
         {
@@ -300,7 +381,7 @@ function CSE() {
             "designation": "Assistant Professor",
             "contact": "9490339847",
             "email": "Not Provided",
-            "room": "CSE001001",
+            "room": "212",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE001001.jpg"
         },
         {
@@ -308,7 +389,7 @@ function CSE() {
             "designation": "Assistant Professor",
             "contact": "9885224617",
             "email": "Not Provided",
-            "room": "CSE101006",
+            "room": "211",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE101006.jpg"
         },
         {
@@ -316,7 +397,7 @@ function CSE() {
             "designation": "Assistant Professor",
             "contact": "9908819336",
             "email": "Not Provided",
-            "room": "CSE101002",
+            "room": "212",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSESTAFF/CSE101002.jpg"
         }
         

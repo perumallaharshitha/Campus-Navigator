@@ -8,7 +8,7 @@ function FED() {
             "designation": "Professor & Head",
             "contact": "9491386191",
             "email": "msrilakshmi@pvpsiddhartha.ac.in",
-            "room": "SAH100001",
+            "room": "418",
             "photo": "https://www.pvpsiddhartha.ac.in/images/SAHSTAFF/SAH100001.jpg"
         },
         {
@@ -16,7 +16,7 @@ function FED() {
             "designation": "Associate Professor",
             "contact": "9490958256",
             "email": "rudrama_devi@yahoo.co.in",
-            "room": "SAH010001",
+            "room": "431",
             "photo": "https://www.pvpsiddhartha.ac.in/images/SAHSTAFF/SAH010001.jpg"
         },
         {
@@ -24,7 +24,7 @@ function FED() {
             "designation": "Associate Professor",
             "contact": "9848969383",
             "email": "aprtoapr@gmail.com",
-            "room": "SAH010046",
+            "room": "415",
             "photo": "https://www.pvpsiddhartha.ac.in/images/SAHSTAFF/SAH010046.jpg"
         },
         {
@@ -32,7 +32,7 @@ function FED() {
             "designation": "Assistant Professor",
             "contact": "9177312931",
             "email": "padmajapodila@gmail.com",
-            "room": "SAH010004",
+            "room": "416",
             "photo": "https://www.pvpsiddhartha.ac.in/images/SAHSTAFF/SAH010004.jpg"
         },
         {
@@ -40,7 +40,7 @@ function FED() {
             "designation": "Assistant Professor",
             "contact": "9441266899",
             "email": "Kkumark_2005@yahoo.co.in",
-            "room": "SAH010013",
+            "room": "446",
             "photo": "https://www.pvpsiddhartha.ac.in/images/SAHSTAFF/SAH010013.jpg"
         },
         {
@@ -48,7 +48,7 @@ function FED() {
             "designation": "Assistant Professor",
             "contact": "9963501295",
             "email": "syamenglish@pvpsiddhartha.ac.in",
-            "room": "SAH010014",
+            "room": "415",
             "photo": "https://www.pvpsiddhartha.ac.in/images/SAHSTAFF/SAH010014.jpg"
         },
         {
@@ -56,7 +56,7 @@ function FED() {
             "designation": "Assistant Professor",
             "contact": "9290728511",
             "email": "prameelasajja@gmail.com",
-            "room": "SAH010015",
+            "room": "416",
             "photo": "https://www.pvpsiddhartha.ac.in/images/SAHSTAFF/SAH010015.jpg"
         },
         {
@@ -64,7 +64,7 @@ function FED() {
             "designation": "Assistant Professor & Asst. COE",
             "contact": "9912205656",
             "email": "ganne.kirankumar@gmail.com",
-            "room": "SAH010016",
+            "room": "106",
             "photo": "https://www.pvpsiddhartha.ac.in/images/SAHSTAFF/SAH010016.jpg"
         },
         {
@@ -72,7 +72,7 @@ function FED() {
             "designation": "Assistant Professor",
             "contact": "9963105111",
             "email": "seethamahalakshmi@pvpsiddhartha.ac.in",
-            "room": "SAH010032",
+            "room": "415",
             "photo": "https://www.pvpsiddhartha.ac.in/images/SAHSTAFF/SAH010032.jpg"
         },
         {
@@ -80,7 +80,7 @@ function FED() {
             "designation": "Assistant Professor",
             "contact": "9440289412",
             "email": "acsbabu@gmail.com",
-            "room": "SAH010026",
+            "room": "446",
             "photo": "https://www.pvpsiddhartha.ac.in/images/SAHSTAFF/SAH010026.jpg"
         },
         {
@@ -88,7 +88,7 @@ function FED() {
             "designation": "Assistant Professor",
             "contact": "9848035780",
             "email": "vsnm.maths@gmail.com",
-            "room": "SAH010031",
+            "room": "421",
             "photo": "https://www.pvpsiddhartha.ac.in/images/SAHSTAFF/SAH010031.jpg"
         },
         {
@@ -96,7 +96,7 @@ function FED() {
             "designation": "Assistant Professor",
             "contact": "9640007986",
             "email": "jarina.2005@gmail.com",
-            "room": "SAH010023",
+            "room": "409",
             "photo": "https://www.pvpsiddhartha.ac.in/images/SAHSTAFF/SAH010023.jpg"
         },
         {
@@ -104,7 +104,7 @@ function FED() {
             "designation": "Assistant Professor",
             "contact": "8125820455",
             "email": "sreedevi@pvpsiddhartha.ac.in",
-            "room": "SAH010041",
+            "room": "421, 424",
             "photo": "https://www.pvpsiddhartha.ac.in/images/SAHSTAFF/SAH010041.jpg"
         },
         {
@@ -112,7 +112,7 @@ function FED() {
             "designation": "Assistant Professor",
             "contact": "8977521999",
             "email": "pavanimscchemistry@gmail.com",
-            "room": "SAH010035",
+            "room": "425",
             "photo": "https://www.pvpsiddhartha.ac.in/images/SAHSTAFF/SAH010035.jpg"
         },
         {
@@ -120,7 +120,7 @@ function FED() {
             "designation": "Assistant Professor",
             "contact": "9393327386",
             "email": "pavani.peddi@yahoo.co.in",
-            "room": "SAH010036",
+            "room": "428",
             "photo": "https://www.pvpsiddhartha.ac.in/images/SAHSTAFF/SAH010036.jpg"
         },
         {
@@ -128,7 +128,7 @@ function FED() {
             "designation": "Assistant Professor",
             "contact": "8247288609",
             "email": "sidagamtulasi@ymail.com",
-            "room": "SAH010037",
+            "room": "428, 437",
             "photo": "https://www.pvpsiddhartha.ac.in/images/SAHSTAFF/SAH010037.jpg"
         },
         {
@@ -136,7 +136,7 @@ function FED() {
             "designation": "Assistant Professor",
             "contact": "9885029497",
             "email": "coppisetty.preethi@gmail.com",
-            "room": "SAH010040",
+            "room": "409",
             "photo": "https://www.pvpsiddhartha.ac.in/images/SAHSTAFF/SAH010040.jpg"
         },
         {
@@ -144,7 +144,7 @@ function FED() {
             "designation": "Assistant Professor",
             "contact": "8106523579",
             "email": "ramakotesh26parasa@gmail.com",
-            "room": "SAH010043",
+            "room": "434",
             "photo": "https://www.pvpsiddhartha.ac.in/images/SAHSTAFF/SAH010043.jpg"
         },
         {
@@ -152,7 +152,7 @@ function FED() {
             "designation": "Assistant Professor",
             "contact": "9247708858",
             "email": "krishnasreephysics@gmail.com",
-            "room": "SAH010047",
+            "room": "421",
             "photo": "https://www.pvpsiddhartha.ac.in/images/SAHSTAFF/SAH010047.jpg"
         },
         {
@@ -160,7 +160,7 @@ function FED() {
             "designation": "Assistant Professor",
             "contact": "9985254999",
             "email": "lakshmilavanyapotturi@gmail.com",
-            "room": "SAH010042",
+            "room": "413",
             "photo": "https://www.pvpsiddhartha.ac.in/images/SAHSTAFF/SAH010042.jpg"
         },
         {
@@ -168,7 +168,7 @@ function FED() {
             "designation": "Assistant Professor",
             "contact": "9533059573",
             "email": "pullaraoteneti@gmail.com",
-            "room": "SAH010050",
+            "room": "434",
             "photo": "https://www.pvpsiddhartha.ac.in/images/SAHSTAFF/SAH010050.jpg"
         },
         {
@@ -176,7 +176,7 @@ function FED() {
             "designation": "Assistant Professor",
             "contact": "9490114617",
             "email": "nannapaneniusharani73@gmail.com",
-            "room": "SAH010052",
+            "room": "414, 425",
             "photo": "https://www.pvpsiddhartha.ac.in/images/SAHSTAFF/SAH010052.jpg"
         },
         {
@@ -184,7 +184,7 @@ function FED() {
             "designation": "Assistant Professor",
             "contact": "9490366263",
             "email": "nagaprasadmadaka45@gmail.com",
-            "room": "SAH010058",
+            "room": "430",
             "photo": "https://www.pvpsiddhartha.ac.in/images/SAHSTAFF/SAH010058.jpg"
         },
         {
@@ -211,7 +211,7 @@ function FED() {
             "designation": "Not Provided",
             "contact": "8332878294",
             "email": "Not Provided",
-            "room": "SAH011005",
+            "room": "414",
             "photo": "https://www.pvpsiddhartha.ac.in/images/SAHSTAFF/SAH011005.jpg"
         },
         {
@@ -219,7 +219,7 @@ function FED() {
             "designation": "Not Provided",
             "contact": "8106325733",
             "email": "Not Provided",
-            "room": "SAH011001",
+            "room": "425",
             "photo": "https://www.pvpsiddhartha.ac.in/images/SAHSTAFF/SAH011001.jpg"
         },
         {
@@ -227,7 +227,7 @@ function FED() {
             "designation": "Not Provided",
             "contact": "8125562382",
             "email": "Not Provided",
-            "room": "SAH011002",
+            "room": "424",
             "photo": "https://www.pvpsiddhartha.ac.in/images/SAHSTAFF/SAH011002.jpg"
         },
         {
@@ -235,7 +235,7 @@ function FED() {
             "designation": "Not Provided",
             "contact": "9640221906",
             "email": "Not Provided",
-            "room": "SAH001001",
+            "room": "418",
             "photo": "https://www.pvpsiddhartha.ac.in/images/SAHSTAFF/SAH001001.jpg"
         }
     ];

@@ -5,11 +5,11 @@ function EEE() {
     // Teaching Staff
     const facultyData = [
         {
-            name: "Dr. C. Subba Rao",
+            name: "Dr. Ch Padmanabha Raju",
             designation: "Professor & Head",
-            contact: "8074776513",
-            email: "csr949@pvpsiddhartha.ac.in",
-            room: "ECE010005",
+            contact: "	9246400881",
+            email: "	hodeee@pvpsiddhartha.ac.in",
+            room: "131, 135",
             photo:"https://www.pvpsiddhartha.ac.in/images/EEESTAFF/EEE010014.jpg"
         },
         {
@@ -17,7 +17,7 @@ function EEE() {
             designation: "Professor",
             contact: "9080574470",
             email: "gklenin@gmail.com",
-            room: "EEE010068",
+            room: "238",
             photo:"https://www.pvpsiddhartha.ac.in/images/EEESTAFF/EEE010068.jpg"
         },
         {
@@ -25,7 +25,7 @@ function EEE() {
             designation: "Associate Professor",
             contact: "9866599925",
             email: "vrmaddukuri@pvpsiddhartha.ac.in",
-            room: "EEE010003",
+            room: "240",
             photo:"https://www.pvpsiddhartha.ac.in/images/EEESTAFF/EEE010003.jpg"
         },
         {
@@ -33,7 +33,7 @@ function EEE() {
             designation: "Associate Professor",
             contact: "9490958225",
             email: "kumarcherukupalli77@gmail.com",
-            room: "EEE010002",
+            room: "133",
             photo:"https://www.pvpsiddhartha.ac.in/images/EEESTAFF/EEE010002.jpg"
         },
         {
@@ -41,7 +41,7 @@ function EEE() {
             designation: "Associate Professor",
             contact: "9849862037",
             email: "nidumoluvijay@gmail.com",
-            room: "EEE010008",
+            room: "140, 248",
             photo:"https://www.pvpsiddhartha.ac.in/images/EEESTAFF/EEE010008.jpg"
         },
         {
@@ -49,7 +49,7 @@ function EEE() {
             designation: "Sr. Assistant Professor",
             contact: "9949418868",
             email: "raga_233@yahoo.co.in",
-            room: "EEE010016",
+            room: "243",
             photo:"https://www.pvpsiddhartha.ac.in/images/EEESTAFF/EEE010016.jpg"
         },
         {
@@ -57,7 +57,7 @@ function EEE() {
             designation: "Sr. Assistant Professor",
             contact: "9493488596",
             email: "hemajavvaji@rediffmail.com",
-            room: "EEE010013",
+            room: "342",
             photo:"https://www.pvpsiddhartha.ac.in/images/EEESTAFF/EEE010013.jpg"
         },
         {
@@ -65,7 +65,7 @@ function EEE() {
             designation: "Assistant Professor",
             contact: "9703074790",
             email: "sbm_movva@rediffmail.com",
-            room: "ECM010030",
+            room: "243",
             photo:"https://www.pvpsiddhartha.ac.in/images/EEESTAFF/ECM010030.jpg"
         },
         {
@@ -73,7 +73,7 @@ function EEE() {
             designation: "Assistant Professor",
             contact: "9490701081",
             email: "baddunaik@pvpsiddhartha.ac.in",
-            room: "EEE010035",
+            room: "259, 351",
             photo:"https://www.pvpsiddhartha.ac.in/images/EEESTAFF/EEE010035.jpg"
         },
         {
@@ -81,7 +81,7 @@ function EEE() {
             designation: "Assistant Professor",
             contact: "9966953378",
             email: "bhavana.kadiyala@gmail.com",
-            room: "EEE010036",
+            room: "241",
             photo:"https://www.pvpsiddhartha.ac.in/images/EEESTAFF/EEE010036.jpg"
         },
         {
@@ -89,7 +89,7 @@ function EEE() {
             designation: "Assistant Professor",
             contact: "8801147207",
             email: "sahrudha.v@gmail.com",
-            room: "EEE010037",
+            room: "244",
             photo:"https://www.pvpsiddhartha.ac.in/images/EEESTAFF/EEE010037.jpg"
         },
         {
@@ -97,7 +97,7 @@ function EEE() {
             designation: "Assistant Professor",
             contact: "8985815736",
             email: "gudavalli.madhavi@gmail.com",
-            room: "EEE010043",
+            room: "245",
             photo:"https://www.pvpsiddhartha.ac.in/images/EEESTAFF/EEE010043.jpg"
         },
         {
@@ -105,7 +105,7 @@ function EEE() {
             designation: "Assistant Professor",
             contact: "9052176170",
             email: "hemanthsai.madupu@pvpsiddhartha.ac.in",
-            room: "EEE010047",
+            room: "259",
             photo:"https://www.pvpsiddhartha.ac.in/images/EEESTAFF/EEE010047.jpg"
         },
         {
@@ -113,7 +113,7 @@ function EEE() {
             designation: "Assistant Professor",
             contact: "9701742364",
             email: "mohan.victory1@gmail.com",
-            room: "EEE010048",
+            room: "268",
             photo:"https://www.pvpsiddhartha.ac.in/images/EEESTAFF/EEE010048.jpg"
         },
         {
@@ -121,7 +121,7 @@ function EEE() {
             designation: "Assistant Professor",
             contact: "9959790083",
             email: "moturuseshu@gmail.com",
-            room: "EEE010045",
+            room: "251",
             photo:"https://www.pvpsiddhartha.ac.in/images/EEESTAFF/EEE010045.jpg"
         },
         {
@@ -129,7 +129,7 @@ function EEE() {
             designation: "Assistant Professor",
             contact: "9966496635",
             email: "saibabu.dec31@pvpsiddhartha.ac.in",
-            room: "EEE010051",
+            room: "251",
             photo:"https://www.pvpsiddhartha.ac.in/images/EEESTAFF/EEE010051.jpg"
         },
         {
@@ -137,7 +137,7 @@ function EEE() {
             designation: "Assistant Professor",
             contact: "9000218909",
             email: "devikamothukuri@gmail.com",
-            room: "EEE010049",
+            room: "244",
             photo:"https://www.pvpsiddhartha.ac.in/images/EEESTAFF/EEE010049.jpg"
         },
         {
@@ -145,7 +145,7 @@ function EEE() {
             designation: "Assistant Professor",
             contact: "9014340021",
             email: "srinuthumati@gmail.com",
-            room: "EEE010058",
+            room: "268",
             photo:"https://www.pvpsiddhartha.ac.in/images/EEESTAFF/EEE010058.jpg"
         },
         {
@@ -153,7 +153,7 @@ function EEE() {
             designation: "Assistant Professor",
             contact: "7396459057",
             email: "pkarunakar.pvpsit@pvpsiddhartha.ac.in",
-            room: "ECM010005",
+            room: "268",
             photo:"https://www.pvpsiddhartha.ac.in/images/EEESTAFF/ECM010005.jpg"
         },
         {
@@ -161,7 +161,7 @@ function EEE() {
             designation: "Assistant Professor",
             contact: "9491961664",
             email: "vemulapalliharika2312@gmail.com",
-            room: "EEE010061",
+            room: "245",
             photo:"https://www.pvpsiddhartha.ac.in/images/EEESTAFF/EEE010061.jpg"
         },
     ];
@@ -179,7 +179,7 @@ function EEE() {
             name: "Mr. D. Pitcheswara Rao",
             designation: "Office Assistant",
             contact: "9963187674",
-            room: "EEE011004",
+            room: "342",
             photo:"https://www.pvpsiddhartha.ac.in/images/EEESTAFF/EEE011004.jpg"
         },
         {
@@ -200,35 +200,35 @@ function EEE() {
             name: "Mr. V. Siva Kiran Kumar",
             designation: "Office Assistant",
             contact: "9440838574",
-            room: "EEE011012",
+            room: "139",
             photo:"https://www.pvpsiddhartha.ac.in/images/EEESTAFF/EEE011012.jpg"
         },
         {
             name: "Mr. Y. Ramakoti",
             designation: "Office Assistant",
             contact: "7396110767",
-            room: "EEE011016",
+            room: "135",
             photo:"https://www.pvpsiddhartha.ac.in/images/EEESTAFF/EEE011016.jpg"
         },
         {
             name: "Mr. B. Nagaraju",
             designation: "Office Assistant",
             contact: "7780529373",
-            room: "EEE011017",
+            room: "241",
             photo:"https://www.pvpsiddhartha.ac.in/images/EEESTAFF/EEE011017.jpg"
         },
         {
             name: "Mr. D. Balaji",
             designation: "Office Assistant",
             contact: "",
-            room: "EEE011013",
+            room: "140",
             photo:"https://www.pvpsiddhartha.ac.in/images/EEESTAFF/EEE011013.jpg"
         },
         {
             name: "Ms. V. Padma",
             designation: "Office Assistant",
             contact: "",
-            room: "EEE001001",
+            room: "132",
             photo:"https://www.pvpsiddhartha.ac.in/images/EEESTAFF/EEE001001.jpg"
         }
     ];

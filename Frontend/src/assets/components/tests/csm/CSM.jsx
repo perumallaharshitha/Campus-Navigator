@@ -9,7 +9,7 @@ function CSM() {
               "designation": "Professor & Head",
               "contact": "9440586340",
               "email": "janakiramaiah@pvpsiddhartha.ac.in",
-              "room": "CSM100001",
+              "room": "432",
               "photo": "https://www.pvpsiddhartha.ac.in/images/CSMSTAFF/CSM100001.jpg"
             },
             {
@@ -25,7 +25,7 @@ function CSM() {
               "designation": "Assistant Professor",
               "contact": "8520881544",
               "email": "psujatha@pvpsiddhartha.ac.in",
-              "room": "CSM010003",
+              "room": "250",
               "photo": "https://www.pvpsiddhartha.ac.in/images/CSMSTAFF/CSM010003.jpg"
             },
             {
@@ -33,7 +33,7 @@ function CSM() {
               "designation": "Assistant Professor",
               "contact": "9000224632",
               "email": "vkrishna@pvpsiddhartha.ac.in",
-              "room": "CSM010005",
+              "room": "443",
               "photo": "https://www.pvpsiddhartha.ac.in/images/CSMSTAFF/CSM010005.jpg"
             },
             {
@@ -41,7 +41,7 @@ function CSM() {
               "designation": "Assistant Professor",
               "contact": "9440764235",
               "email": "kssnarayana@pvpsiddhartha.ac.in",
-              "room": "CSM010006",
+              "room": "443",
               "photo": "https://www.pvpsiddhartha.ac.in/images/CSMSTAFF/CSM010006.jpg"
             },
             {
@@ -49,7 +49,7 @@ function CSM() {
               "designation": "Assistant Professor",
               "contact": "8978125792",
               "email": "kalyanchakravarthy@pvpsiddhartha.ac.in",
-              "room": "CSM010007",
+              "room": "438",
               "photo": "https://www.pvpsiddhartha.ac.in/images/CSMSTAFF/CSM010007.jpg"
             },
             {
@@ -57,7 +57,7 @@ function CSM() {
               "designation": "Assistant Professor",
               "contact": "8977772577",
               "email": "deepa@pvpsit.ac.in",
-              "room": "CSM010008",
+              "room": "260",
               "photo": "https://www.pvpsiddhartha.ac.in/images/CSMSTAFF/CSM010008.jpg"
             },
             {
@@ -65,7 +65,7 @@ function CSM() {
               "designation": "Assistant Professor",
               "contact": "8770706429",
               "email": "gamanigayatri@pvpsit.ac.in",
-              "room": "CSM010009",
+              "room": "260",
               "photo": "https://www.pvpsiddhartha.ac.in/images/CSMSTAFF/CSM010009.jpg"
             },
             {
@@ -73,7 +73,7 @@ function CSM() {
               "designation": "Assistant Professor",
               "contact": "7550121079",
               "email": "susmithan@pvpsiddhartha.ac.in",
-              "room": "CSM010010",
+              "room": "256",
               "photo": "https://www.pvpsiddhartha.ac.in/images/CSMSTAFF/CSM010010.jpg"
             }
     ];
@@ -100,7 +100,7 @@ function CSM() {
             "designation": "Assistant Professor",
             "contact": "9948699589",
             "email": "Not Provided",
-            "room": "CSM001001",
+            "room": "433",
             "photo": "https://www.pvpsiddhartha.ac.in/images/CSMSTAFF/CSM001001.jpg"
           }          
 

@@ -4,78 +4,90 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
 function Register() {
-  const [role, setRole] = useState();
-  const [username, setUsername] = useState();
-  const [password, setPassword] = useState();
-  const [error, setError] = useState("");  // Add error state
+  const [role, setRole] = useState("");
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
-    try {
-      const response = await axios.post('http://localhost:4000/user-api/user', { role, username, password });
-      console.log(response);
-      navigate('/login');
-    } catch (error) {
-      console.log(error);
-      setError(error.response?.data?.message || "Something went wrong");  // Update error state with the message from backend
-    }
+    axios
+      .post("http://localhost:4000/user-api/user", { role, username, password })
+      .then((response) => {
+        console.log(response);
+        navigate("/login");
+      })
+      .catch((error) => {
+        console.error(error);
+      });
   };
 
   return (
-    <div className="registration-page">
-      <div className="registration-container">
-        <div className="registration-left">
-          <h1>Navigate Your Campus</h1>
+    <div className="container-fluid register-page">
+      <div className="row register-container">
+        
+        {/* Left Side: Image */}
+        <div className="col-md-6 register-right d-none d-md-block">
+          <div className="graphic-container"></div>
         </div>
-        <div className="registration-right">
-          <div className="registration-form">
-            <h2>Create an Account</h2>
-            {error && <div className="error-message">{error}</div>}  {/* Display error message */}
-            <form onSubmit={handleSubmit}>
-              <div className="form-group">
-                <label htmlFor="role">Role</label>
-                <select
-                  id="role"
-                  className="form-control"
-                  onChange={(e) => setRole(e.target.value)}
-                >
-                  <option value="student">Student</option>
-                  <option value="faculty">Faculty</option>
-                  <option value="parent">Parent</option>
-                </select>
-              </div>
-              <div className="form-group">
-                <label htmlFor="username">Username</label>
-                <input
-                  type="text"
-                  id="username"
-                  className="form-control"
-                  placeholder="Choose a username"
-                  onChange={(e) => setUsername(e.target.value)}
-                  required
-                />
-              </div>
-              <div className="form-group">
-                <label htmlFor="password">Password</label>
-                <input
-                  type="password"
-                  id="password"
-                  className="form-control"
-                  placeholder="Create a password"
-                  onChange={(e) => setPassword(e.target.value)}
-                  required
-                />
-              </div>
-              <button type="submit" className="btn-submit">
-                Create an Account
-              </button>
-            </form>
-            <p className="login-link">
-              Already have an account? <a href="/login">Log In</a>
-            </p>
-          </div>
+
+        {/* Right Side: Form */}
+        <div className="col-md-6 register-left">
+          <h1>Create Your Account</h1>
+          <p>Sign up and explore the campus navigation system</p>
+
+          <form onSubmit={handleSubmit}>
+
+            <div className="form-group">
+              <label htmlFor="role">Role</label>
+              <select
+                id="role"
+                className="form-control"
+                value={role}
+                onChange={(e) => setRole(e.target.value)}
+                required
+              >
+                <option value="">Select role</option>
+                <option value="student">Student</option>
+                <option value="faculty">Faculty</option>
+                <option value="parent">Parent</option>
+              </select>
+            </div>
+
+            <div className="form">
+              <label htmlFor="username">Username</label>
+              <input
+                type="text"
+                id="username"
+                className="form-control"
+                placeholder="Enter a username"
+                value={username}
+                onChange={(e) => setUsername(e.target.value)}
+                required
+              />
+            </div>
+
+            <div className="form">
+              <label htmlFor="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                className="form-control"
+                placeholder="Enter password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                required
+              />
+            </div>
+
+            <button type="submit" className="btn btn-b btn-success">
+              Create account
+            </button>
+          </form>
+
+          <p className="login-link">
+            Already have an account? <a href="/login">Log in here</a>
+          </p>
         </div>
       </div>
     </div>
