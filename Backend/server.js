@@ -15,7 +15,7 @@ app.use(cors({
   origin:['http://localhost:5173','https://campus-navigation-nu.vercel.app/']
 }))
 
-
+app.options("*", cors());
 // Middleware to handle CORS
 app.use(cors());  // Allows all origins (for testing purposes)
 
