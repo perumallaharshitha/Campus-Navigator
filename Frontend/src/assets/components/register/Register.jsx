@@ -12,7 +12,7 @@ function Register() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:4000/user-api/user", { role, username, password })
+      .post("https://campus-navigator-nine.vercel.app/", { role, username, password })
       .then((response) => {
         console.log(response);
         navigate("/login");

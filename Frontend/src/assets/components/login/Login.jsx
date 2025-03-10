@@ -13,7 +13,7 @@ function Login() {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:4000/user-api/login', { username, password });
+      const response = await axios.post('https://campus-navigator-nine.vercel.app/', { username, password });
       console.log(response.data);
       if (response.data.message === "Login successful") {
         navigate('/campus-map');
