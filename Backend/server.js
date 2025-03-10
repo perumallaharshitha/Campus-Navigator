@@ -10,17 +10,13 @@ require("dotenv").config();
 // Initialize Express app
 const app = express();
 
-app.use(cors({
-  // origin:'http://localhost:5173'
-  origin:['http://localhost:5173','https://campus-navigation-nu.vercel.app']
-}))
+// app.use(cors({
+//   // origin:'http://localhost:5173'
+//   origin:['http://localhost:5173','https://campus-navigation-nu.vercel.app']
+// }))
 
 app.options("*", cors());
-// Middleware to handle CORS
-app.use(cors());  // Allows all origins (for testing purposes)
 
-// Middleware to parse incoming requests
-app.use(express.json());
 
 // Connect to MongoDB
 const mClient = new MongoClient(process.env.DB_URL);
