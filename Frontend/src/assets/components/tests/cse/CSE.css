@@ -1,6 +1,7 @@
 .staff-container {
     padding: 20px;
-    background-color: cornsilk;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+
 }
 
 .search-input {
