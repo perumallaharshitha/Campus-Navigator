@@ -1,35 +1,44 @@
-/* Global font styles */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
 body {
-  font-family: 'Quicksand', sans-serif; /* Friendly and modern font */
+  font-family: 'Playfair Display', serif;
   margin: 0;
   padding: 0;
-  background-color: #f7f7f7; /* Light grey background */
+  background-color: #f7f7f7;
 }
 
-/* Header container */
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 30px;
-  background-color: #e6e6fa; /* Soft Lavender background */
-  color: #333; /* Dark grey for text */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background-color: #e6e6fa;
+  color: #333;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Left section (Campus Navigator title) */
-.left .header-title {
+.header-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  color: #2C3E50;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0;
+  text-align: center;
+}
+
+.left {
   font-size: 28px;
   font-weight: 700;
-  color: #2a9d8f; /* Soft teal color */
-  font-family: 'Montserrat', sans-serif; /* Clean, geometric sans-serif font */
+  color: #2a9d8f;
+  font-family: 'Playfair Display', serif;
   letter-spacing: 1.5px;
   margin: 0;
-  text-transform: none; /* Sentence case */
+  text-transform: none;
   padding: 0 10px;
 }
 
-/* Navbar */
 .center .navbar {
   display: flex;
   list-style: none;
@@ -43,51 +52,22 @@ body {
 
 .center .nav-link {
   text-decoration: none;
-  color: #264653; /* Dark soft blue */
+  color: #264653;
   font-weight: 500;
-  font-size: 14px; /* Smaller font size */
+  font-size: 15px;
   transition: color 0.3s ease;
   padding-bottom: 4px;
 }
 
 .center .nav-link:hover {
-  color: #e9c46a; /* Soft yellow on hover */
+  color: #e9c46a;
   border-bottom: 2px solid #e9c46a;
 }
 
-/* Search bar */
 .right {
-  display: flex;
-  align-items: center;
+  display: none;
 }
 
-.search-form {
-  position: relative;
-}
-
-.search-input {
-  width: 230px;
-  padding: 10px 20px;
-  font-size: 16px;
-  border: none;
-  border-radius: 30px;
-  outline: none;
-  background-color: #ffffff;
-  color: #333;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: width 0.3s ease;
-}
-
-.search-input:focus {
-  width: 300px;
-  background-color: #e9f1f0; /* Light teal on focus */
-}
-
-.search-input::placeholder {
-  color: #888;
-}
-
-/* Responsiveness for smaller screens */
 @media (max-width: 768px) {
   .header-container {
     flex-direction: column;
@@ -107,10 +87,6 @@ body {
   .center .nav-item {
     margin: 10px 0;
   }
-
-  .right .search-input {
-    width: 200px;
-  }
 }
 
 @media (max-width: 480px) {
@@ -120,9 +96,5 @@ body {
 
   .center .nav-link {
     font-size: 12px;
-  }
-
-  .search-input {
-    width: 180px;
   }
 }

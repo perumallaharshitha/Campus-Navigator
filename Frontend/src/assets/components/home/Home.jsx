@@ -1,100 +1,122 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState } from "react";
 import "./home.css";
 
 const Home = () => {
-  const [dropdownOpen, setDropdownOpen] = useState(false);
-  const [coordinates, setCoordinates] = useState({ latitude: null, longitude: null });
-  const [destinationCoords, setDestinationCoords] = useState(null);
-  const dropdownRef = useRef(null);
+  const [input, setInput] = useState("");
+  const [result, setResult] = useState(null);
 
-  useEffect(() => {
-    function handleClickOutside(event) {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
-        setDropdownOpen(false);
-      }
-    }
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, []);
-
-  // Predefined locations on campus
-  const locations = {
-    "Administration Block": { lat: 12.9716, lng: 77.5946 },
-    "Central Library": { lat: 12.9721, lng: 77.5951 },
-    "Parking": { lat: 12.9708, lng: 77.5939 },
-    "Canteen": { lat: 12.9712, lng: 77.5932 },
-    "Sports Complex": { lat: 12.9699, lng: 77.5925 },
-    "Auditorium": { lat: 12.9725, lng: 77.5943 },
-    "Hall 1": { lat: 12.9730, lng: 77.5950 },
-    "Hall 2": { lat: 12.9735, lng: 77.5948 },
-    "Hall 3": { lat: 12.9740, lng: 77.5946 },
-    "Hall 4": { lat: 12.9745, lng: 77.5944 },
-    "Hall 5": { lat: 12.9750, lng: 77.5942 },
-    "Hall 6": { lat: 12.9755, lng: 77.5940 }
+  const roomDetails = {
+    "101": { floor: "First Floor", Venue:"Admin Office"},
+    "129": { floor: "First Floor", Venue:"Central Library"},
+    "161": { floor: "First Floor", Venue:"Ground Floor Seminar Hall"},
+    "236": { floor: "Second Floor", Venue:"Auditorium"},
+    "270": { floor: "Second Floor",Venue:"First Floor Seminar Hall" },
+    "372": { floor: "Third Floor", Venue:"Second Floor Seminar Hall"},
+    "467": { floor: "Fourth Floor", Venue:"Yoga Center"},
+    "101-129": { floor: "First Floor", department: "Mechanical Department," },
+    "130-161": { floor: "First Floor", department: "EEE Department, CIVIL Department" },
+    "201-236": { floor: "Second Floor", department: "CSE Department" },
+    "237-270": { floor: "Second Floor", department: "CSD/CSM Department" },
+    "301-333": { floor: "Third Floor", department: "IT Department" },
+    "334-372": { floor: "Third Floor", department: "ECE Department" },
+    "407-447": { floor: "Fourth Floor", department: "FED Department" },
+    "448-467": { floor: "Fourth Floor", department: "MBA Department" },
   };
 
-  const handleButtonClick = (e) => {
-    const destination = locations[e.target.innerText];
+  const venueDetails = {
+    "auditorium": { room: 236, floor: "Second Floor" },
+    "portfolio": { room: 161, floor: "First Floor" },
+    "ground floor seminar hall": { room: 161, floor: "First Floor" },
+    "first floor seminar hall": { room: 270, floor: "Second Floor" },
+    "second floor seminar hall": { room: 372, floor: "Third Floor" },
+    "yoga center": { room: 467, floor: "Fourth Floor" },
+    "central library": { room: 129, floor: "First Floor" },
+    "administrative office": { room: 101, floor: "First Floor" },
+  };
 
-    if (!destination) {
-      alert("Invalid destination");
-      return;
-    }
+  const handleInputChange = (e) => {
+    const value = e.target.value.toLowerCase().trim();
+    setInput(value);
+  };
 
-    if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(
-        (position) => {
-          setCoordinates({
-            latitude: position.coords.latitude,
-            longitude: position.coords.longitude
-          });
-
-          setDestinationCoords(destination);
-        },
-        (error) => {
-          console.error(error);
-          alert("Unable to retrieve your location.");
-        }
-      );
+  const handleSearch = () => {
+    if (roomDetails[input]) {
+      setResult(roomDetails[input]);
+    } else if (venueDetails[input]) {
+      setResult(venueDetails[input]);
     } else {
-      alert("Geolocation is not supported by this browser.");
+      for (let range in roomDetails) {
+        const [start, end] = range.split("-").map(Number);
+        if (input >= start && input <= end) {
+          setResult(roomDetails[range]);
+          break;
+        }
+      }
+    }
+  };
+
+  const handleVenueSearch = (venue) => {
+    if (venueDetails[venue]) {
+      setResult(venueDetails[venue]);
     }
   };
 
   return (
-    <div className="home-container">
-      <h1 className="log">Campus Navigator</h1>
+    <div className="home-page">
+      <h1 className="log">Lost your way in campus?</h1>
 
-      <div className="search-bar">
-        <span className="search-icon">🔍</span>
-        <input type="text" placeholder="Search Campus or type a location" />
+      <div className="search-result-container">
+        <div className="search-bar">
+          <input
+            type="text"
+            placeholder="Enter Room Number"
+            value={input}
+            onChange={handleInputChange}
+          />
+          <button className="search-btn" onClick={handleSearch}>Search</button>
+        </div>
+
+        {result && (
+          <div className="res">
+            {result.room ? (
+              <p>{`${result.department}, ${result.floor}`}</p>
+            ) : (
+              <p>{`${result.department}, ${result.floor}`}</p>
+            )}
+          </div>
+        )}
       </div>
 
-      <div className="nav-buttons">
-        {Object.keys(locations).slice(0, 6).map((place) => (
-          <button key={place} className="nav-btn" onClick={handleButtonClick}>{place}</button>
-        ))}
+      <div className="btns">
+  <a href="/campus-nav" className="action-btn">Library</a>
+  <a href="/campus-nav" className="action-btn">Auditorium</a>
+  <a href="/campus-nav" className="action-btn">Parking</a>
+  <div className="dropdown">
+    <button className="action-btn">Floors</button>
+    <div className="dropdown-content">
+      <a href="/floor1">Floor 1</a>
+      <a href="/floor2" >Floor 2</a>
+      <a href="/floor3" >Floor 3</a>
+      <a href="/floor4" >Floor 4</a>
+    </div>
+  </div>
+  <div className="dropdown">
+    <button className="action-btn">Departments</button>
+    <div className="dropdown-content">
+      <a href="/mech-nav" >MECH Dept</a>
+      <a href="/eee-nav" >EEE Dept</a>
+      <a href="/cse-nav" >CSE Dept</a>
+      <a href="/ece-nav" >ECE Dept</a>
+      <a href="/it-nav"  >IT Dept</a>
+      <a href="/civil-nav" >Civil Dept</a>
+      <a href="/fed-nav" >FED Dept</a>
+      <a href="/mba-nav" >MBA Dept</a>
+    </div>
+  </div>
+  <a href="/campus-nav" className="action-btn">Admin Office</a>
+</div>
 
-        <div className={`dropdown ${dropdownOpen ? "dropdown-open" : ""}`} ref={dropdownRef}>
-          <button className="nav-btn" onClick={() => setDropdownOpen(!dropdownOpen)}>Seminary Halls ⏷</button>
-          {dropdownOpen && (
-            <div className="dropdown-content">
-              {Object.keys(locations).slice(6).map((hall) => (
-                <button key={hall} onClick={handleButtonClick}>{hall}</button>
-              ))}
-            </div>
-          )}
-        </div>
-      </div>
 
-      {coordinates.latitude && coordinates.longitude && (
-        <div className="coordinates-display">
-          <p><strong>Latitude:</strong> {coordinates.latitude}</p>
-          <p><strong>Longitude:</strong> {coordinates.longitude}</p>
-        </div>
-      )}
-
-      
     </div>
   );
 };

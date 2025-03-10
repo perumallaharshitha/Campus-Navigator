@@ -1,31 +1,31 @@
 import React from "react";
-import mapImage from "../../../images/maps/cse.png";
+import mapImage from "../../../images/maps/csd&aiml.png";
 import "./CSDMap.css";
 
 function CSDMAP() {
   const classroomData = [
-    { room: "201", name: "II B. Tech Classroom Sec -I" },
-    { room: "202", name: "II B. Tech Classroom Sec -III" },
-    { room: "210", name: "II B. Tech Classroom Sec -II" },
-    { room: "203", name: "E - Classroom" },
-    { room: "230", name: "III B. Tech Classroom Sec -I" },
-    { room: "210", name: "III B. Tech Classroom Sec -II" },
+    { room: "242", name: "II B. Tech Classroom Sec -I" },
+    { room: "242A", name: "II B. Tech Classroom Sec -III" },
+    { room: "252", name: "II B. Tech Classroom Sec -II" },
+    { room: "262", name: "E - Classroom" },
+    { room: "262", name: "III B. Tech Classroom Sec -I" },
+    { room: "269", name: "III B. Tech Classroom Sec -II" },
     { room: "230A", name: "III B. Tech Classroom Sec -III" },
   ];
 
   const labData = [
-    { room: "208", name: "Artificail Intelligence & Machine Learning Lab, Dept of CSE" },
-    { room: "216", name: "Application Development Lab, Dept of CSE" },
-    { room: "224", name: "Programming Languages Lab, Dept of CSE"},
-    { room: "229", name: "Metallurgy Lab, Dept of ME "},
-    { room: "231", name: "Machine Dynamics Lab, Dept of ME " },
-    // { room: "305", name: "Lab 5" },
-    // { room: "306", name: "Lab 6" },
+    { room: "241", name: "Power Electronic Lab, Dept of EEE" },
+    { room: "243", name: "Control Systems Lab, Dept of EEE" },
+    { room: "247", name: "Data Engineers Lab,Big Data Analytics Lab, Dept of CSD"},
+    { room: "253", name: "Analog & Digital Circuits Lab, Dept of EEE " },
+    { room: "255", name: "Digital Signal Processing Lab,E- Classroom, Dept of ECE " },
+    { room: "261", name: "Communication Systems Lab, Dept of ECE " },
+    { room: "264", name: "Microwave Engineering Lab, Dept of ECE " },
   ];
 
   const waitingHallData = [
-    { room: "214", name: "Girls Waiting hall" },
-    { room: "225", name: "Boys Waiting Hall" },
+    { room: "246", name: "Girls Waiting hall" },
+    { room: "257", name: "Boys Waiting Hall" },
   ];
 
   const facultyRoomData = [
@@ -42,23 +42,21 @@ function CSDMAP() {
 ];
 
   const departmentRoomData = [
-    { room: "204", name: "Department Examination Cell, Dept of CSE"},
-    { room: "206", name: "Department Library, Dept of CSE",},
-    { room: "211", name: "Invention and Innovation Cell, Dept of CSE"},
-    { room: "212", name: "Department Office, Dept of CSE"},
-    { room: "213", name: "Head of the Department, Dept of CSE"},
-    { room: "218", name: "Reasearch & Development Lab, Dept of CSE"},
-    { room: "227", name: "Department Library, Dept of ME" },
+    { room: "245", name: "Department Library, Dept of EEE",},
+    { room: "249", name: "RS/ GID Lab,CAD Lab, Dept of CIVIL "},
+    // { room: "204", name: "Department Examination Cell, Dept of CSE"},
+    // { room: "206", name: "Department Library, Dept of CSE",},
+    // { room: "211", name: "Invention and Innovation Cell, Dept of CSE"},
+    // { room: "212", name: "Department Office, Dept of CSE"},
+    // { room: "213", name: "Head of the Department, Dept of CSE"},
+    // { room: "218", name: "Reasearch & Development Lab, Dept of CSE"},
+    // { room: "227", name: "Department Library, Dept of ME" },
   ];
 
 
   const additionalRoomData = [
-    { room: "215", name: "Tutorial Room" },
-    // { room: "702", name: "Room 2" },
-    // { room: "703", name: "Room 3" },
-    // { room: "704", name: "Room 4" },
-    // { room: "705", name: "Room 5" },
-    // { room: "706", name: "Room 6" },
+    { room: "266", name: "Anti Ragging Cell" },
+    { room: "270", name: "First Floor Seminar Hall" },
   ];
 
   return (

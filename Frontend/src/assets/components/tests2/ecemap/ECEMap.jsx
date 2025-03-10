@@ -4,28 +4,32 @@ import "./ECEMap.css";
 
 function ECEMAP() {
   const classroomData = [
-    { room: "201", name: "II B. Tech Classroom Sec -I" },
-    { room: "202", name: "II B. Tech Classroom Sec -III" },
-    { room: "210", name: "II B. Tech Classroom Sec -II" },
-    { room: "203", name: "E - Classroom" },
-    { room: "230", name: "III B. Tech Classroom Sec -I" },
-    { room: "210", name: "III B. Tech Classroom Sec -II" },
-    { room: "230A", name: "III B. Tech Classroom Sec -III" },
+    { room: "341", name: "IV B. Tech ECE Classroom Sec -I" },
+    { room: "341A", name: "IV B. Tech ECE Classroom Sec -II" },
+    { room: "353", name: "III B. Tech ECE Classroom Sec -II" },
+    { room: "365", name: "II B. Tech ECE Classroom Sec -I" },
+    { room: "366", name: "II B. Tech ECE Classroom Sec -II" },
+    { room: "371", name: "III B. Tech ECE Classroom Sec -I" },
   ];
 
   const labData = [
-    { room: "208", name: "Artificail Intelligence & Machine Learning Lab, Dept of CSE" },
-    { room: "216", name: "Application Development Lab, Dept of CSE" },
-    { room: "224", name: "Programming Languages Lab, Dept of CSE"},
-    { room: "229", name: "Metallurgy Lab, Dept of ME "},
-    { room: "231", name: "Machine Dynamics Lab, Dept of ME " },
+    { room: "337, 338, 339", name: "Engineering Mechanics Lab, Dept of ECE" },
+    { room: "342", name: "MicroProcessors & MicroControllers Lab, Electrical Engineering Lab, IOT Application Lab, Dept of EEE" },
+    { room: "346", name: "Environmental Engineering Lab, Dept of CIVIL"},
+    { room: "348", name: "CAD Lab, R&D Center, Dept of ME " },
+    { room: "350", name: "ARC Lab, Dept of ECE " },
+    { room: "351", name: "ALUMNI CELL" },
+    { room: "352", name: "Engineering Geology Lab, Dept of ECE " },
+    { room: "355", name: "Electronic Devices & Circuits Lab, Dept of ECE " },
+    { room: "356", name: "Embedded Systems Lab, Dept of ECE " },
+    { room: "364", name: "VLSI & Signal Processing Lab, Dept of ECE " },
     // { room: "305", name: "Lab 5" },
     // { room: "306", name: "Lab 6" },
   ];
 
   const waitingHallData = [
-    { room: "214", name: "Girls Waiting hall" },
-    { room: "225", name: "Boys Waiting Hall" },
+    { room: "347", name: "Boys Waiting Hall" },
+    { room: "359", name: "Girls Waiting hall" },
   ];
 
   const facultyRoomData = [
@@ -58,23 +62,17 @@ function ECEMAP() {
 ];
 
   const departmentRoomData = [
-    { room: "204", name: "Department Examination Cell, Dept of CSE"},
-    { room: "206", name: "Department Library, Dept of CSE",},
-    { room: "211", name: "Invention and Innovation Cell, Dept of CSE"},
-    { room: "212", name: "Department Office, Dept of CSE"},
-    { room: "213", name: "Head of the Department, Dept of CSE"},
-    { room: "218", name: "Reasearch & Development Lab, Dept of CSE"},
-    { room: "227", name: "Department Library, Dept of ME" },
+    { room: "370", name: "Department Examination Cell, Dept of ECE"},
+    { room: "361", name: "Department Library, Dept of ECE",},
+    { room: "367", name: "Incubation Center, R&D Center, Dept of ECE "},
+    { room: "368", name: "Department Office, Dept of ECE"},
+    { room: "369", name: "Head of the Department, Dept of ECE"},
   ];
 
 
   const additionalRoomData = [
-    { room: "215", name: "Tutorial Room" },
-    // { room: "702", name: "Room 2" },
-    // { room: "703", name: "Room 3" },
-    // { room: "704", name: "Room 4" },
-    // { room: "705", name: "Room 5" },
-    // { room: "706", name: "Room 6" },
+    { room: "336", name: "Tutorial Room, Dept of EEE" },
+    { room: "345", name: "Research & Development Cell, PVPSIT" },
   ];
 
   return (

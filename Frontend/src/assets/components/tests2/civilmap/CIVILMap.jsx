@@ -1,5 +1,5 @@
 import React from "react";
-import mapImage from "../../../images/maps/mech.png";
+import mapImage from "../../../images/maps/civil.png";
 import "./CIVILMap.css";
 
 function CIVILMAP() {

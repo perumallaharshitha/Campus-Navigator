@@ -4,28 +4,30 @@ import "./EEEMap.css";
 
 function EEEMAP() {
   const classroomData = [
-    { room: "201", name: "II B. Tech Classroom Sec -I" },
-    { room: "202", name: "II B. Tech Classroom Sec -III" },
-    { room: "210", name: "II B. Tech Classroom Sec -II" },
-    { room: "203", name: "E - Classroom" },
-    { room: "230", name: "III B. Tech Classroom Sec -I" },
+    { room: "134", name: "II B. Tech Classroom Sec -I" },
+    { room: "134A", name: "II B. Tech Classroom Sec -III" },
+    { room: "143", name: "II B. Tech Classroom Sec -II" },
+    { room: "154", name: "E - Classroom" },
+    { room: "155", name: "III B. Tech Classroom Sec -I" },
     { room: "210", name: "III B. Tech Classroom Sec -II" },
     { room: "230A", name: "III B. Tech Classroom Sec -III" },
   ];
 
   const labData = [
-    { room: "208", name: "Artificail Intelligence & Machine Learning Lab, Dept of CSE" },
-    { room: "216", name: "Application Development Lab, Dept of CSE" },
-    { room: "224", name: "Programming Languages Lab, Dept of CSE"},
-    { room: "229", name: "Metallurgy Lab, Dept of ME "},
-    { room: "231", name: "Machine Dynamics Lab, Dept of ME " },
+    { room: "133", name: "Electrical Workshop, Dept of EEE" },
+    { room: "135", name: "Electrical Powers System Lab, Dept of EEE" },
+    { room: "139", name: "Electrico Mechanics Lab, Dept of EEE"},
+    { room: "140-141", name: "Electrical and Electronics Workshop, BEEE Lab, Electrical Circuits Lab, Dept of ME "},
+    { room: "146", name: "Geo Technical Engineering Lab, Dept of CIVIL " },
+    { room: "150", name: "Surveying Laboratory, Dept of EEE " },
+    { room: "153", name: "Transportation Engineering Lab, Dept of EEE " },
     // { room: "305", name: "Lab 5" },
     // { room: "306", name: "Lab 6" },
   ];
 
   const waitingHallData = [
-    { room: "214", name: "Girls Waiting hall" },
-    { room: "225", name: "Boys Waiting Hall" },
+    { room: "138", name: "Girls Waiting hall" },
+    { room: "149", name: "Boys Waiting Hall" },
   ];
 
   const facultyRoomData = [
@@ -52,19 +54,19 @@ function EEEMAP() {
 ];
 
   const departmentRoomData = [
-    { room: "204", name: "Department Examination Cell, Dept of CSE"},
-    { room: "206", name: "Department Library, Dept of CSE",},
+    { room: "151", name: "Department Library, Dept of EEE",},
     { room: "211", name: "Invention and Innovation Cell, Dept of CSE"},
-    { room: "212", name: "Department Office, Dept of CSE"},
-    { room: "213", name: "Head of the Department, Dept of CSE"},
-    { room: "218", name: "Reasearch & Development Lab, Dept of CSE"},
+    { room: "131", name: "Department Office, Dept of EEE"},
+    { room: "132", name: "Head of the Department, Dept of EEE"},
+    { room: "137", name: "Electrical Stores, Dept of EEE"},
     { room: "227", name: "Department Library, Dept of ME" },
   ];
 
 
   const additionalRoomData = [
-    { room: "215", name: "Tutorial Room" },
-    // { room: "702", name: "Room 2" },
+    { room: "147", name: "GYM - Woman" },
+    { room: "148", name: "GYM - Men & Recreation Hall Men" },
+    { room: "152", name: "Tutorial Room, Dept of CIVIL" },
     // { room: "703", name: "Room 3" },
     // { room: "704", name: "Room 4" },
     // { room: "705", name: "Room 5" },

@@ -39,7 +39,7 @@ function Header() {
             <Link to="/" className="fw-bold nav-link">Home</Link>
           </li>
           <li className="nav-item">
-            <Link to="/departments" className="fw-bold nav-link">Departments</Link>
+            <Link to="/departments" className="fw-bold nav-link">Faculty</Link>
           </li>
           <li className="nav-item">
             <Link to="/campus-map" className="fw-bold nav-link">Campus Map</Link>
@@ -52,7 +52,6 @@ function Header() {
           </li>
         </ul>
       </nav>
-
     </header>
   );
 }

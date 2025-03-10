@@ -1,5 +1,5 @@
 import React from "react";
-import mapImage from "../../../images/maps/cse.png";
+import mapImage from "../../../images/maps/csd&aiml.png";
 import "./CSMMap.css";
 
 function CSMMAP() {

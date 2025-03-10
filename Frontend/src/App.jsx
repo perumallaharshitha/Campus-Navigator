@@ -28,6 +28,21 @@ import CIVILMAP from "./assets/components/tests2/civilmap/CIVILMap.jsx";
 import FEDMAP from "./assets/components/tests2/fedmap/FEDMap.jsx";
 import MBAMAP from "./assets/components/tests2/mbamap/MBAMap.jsx";
 import DepartmentDetails from "./assets/components/departmentdetails/DepartmentDetails.jsx";
+import CAMPUSNav from "./assets/components/tests3/campus/campus.jsx";
+import CSENav from "./assets/components/tests3/depts/csen/CSEN.jsx";
+import CSMNav from "./assets/components/tests3/depts/csmn/CSMN.jsx";
+import CSDNav from "./assets/components/tests3/depts/csdn/CSDN.jsx";
+import ITNav from "./assets/components/tests3/depts/itn/ITN.jsx";
+import ECENav from "./assets/components/tests3/depts/ecen/ECEN.jsx";
+import EEENav from "./assets/components/tests3/depts/eeen/EEEN.jsx";
+import MECHNav from "./assets/components/tests3/depts/mechn/MECHN.jsx";
+import CIVILNav from "./assets/components/tests3/depts/civiln/CIVILN.jsx";
+import FEDNav from "./assets/components/tests3/depts/fedn/FEDN.jsx";
+import MBANav from "./assets/components/tests3/depts/mban/MBAN.jsx";
+import Floor1 from "./assets/components/tests3/floors1/floor1/Floor1.jsx";
+import Floor2 from "./assets/components/tests3/floors1/floor2/Floor2.jsx";
+import Floor3 from "./assets/components/tests3/floors1/floor3/Floor3.jsx";
+import Floor4 from "./assets/components/tests3/floors1/floor4/Floor4.jsx";
 
 function App() {
   const browserRouter = createBrowserRouter([
@@ -139,7 +154,66 @@ function App() {
           path:"mba-map",
           element:<MBAMAP/>
         },
-        
+        {
+          path:"campus-nav", 
+          element:<CAMPUSNav/>
+        },
+        {
+          path:"cse-nav",
+          element:<CSENav/>
+        },
+        {
+          path:"it-nav",
+          element:<ITNav/>
+        },
+        {
+          path:"csd-nav",
+          element:<CSDNav/>
+        },
+        {
+          path:"csm-nav",
+          element:<CSMNav/>
+        },
+        {
+          path:"eee-nav",
+          element:<EEENav/>
+        },
+        {
+          path:"ece-nav",
+          element:<ECENav/>
+        },
+        {
+          path:"civil-nav",
+          element:<CIVILNav/>
+        },
+        {
+          path:"mech-nav",
+          element:<MECHNav/>
+        },
+        {
+          path:"fed-nav",
+          element:<FEDNav/>
+        },
+        {
+          path:"mba-nav",
+          element:<MBANav/>
+        },
+        {
+          path:"floor1",
+          element:<Floor1/>
+        },
+        {
+          path:"floor2",
+          element:<Floor2/>
+        },
+        {
+          path:"floor3",
+          element:<Floor3/>
+        },
+        {
+          path:"floor4",
+          element:<Floor4/>
+        }
       ],
     },
   ]);
